@@ -1,0 +1,37 @@
+
+
+
+ {{#get "posts" filter="featured:false" limit="3" include="tags"}}
+                 {{#foreach posts}}
+			        <div class="bloganime col" data-aos="fade-right">
+				        {{#if feature_image}}
+                            <div class="col">                                
+                             <a href="{{url}}">	   <img src="{{img_url feature_image}}" alt="{{title}}" width="100%"></a>
+					        </div>            
+                        {{/if}} 
+					
+	    				<div class="col">
+						    <div class="blog-column">
+						<a href="{{url}}" class="btn-link">	    <h4 class="purplish">{{title}}</h4></a>
+							    <ul class="blog-detail list-inline"> 
+							        {{#if primary_tag}}
+                                        {{#primary_tag}}	
+                                            <li>
+                                              <i class="fa fas fa-tag"></i>
+                                                <a style="font-weight: normal !important; font-family: gilroy-light !important;" href="{{url}}" class="btn-link">  {{name}}</a>
+                                            </li>  
+                                        {{/primary_tag}}
+                                    {{/if}}
+								    <li><i class="fa far fa-calendar-check"></i>&nbsp;{{date}}</li> 
+                                    <li><i class="fa far fa-clock"></i>&nbsp;{{reading_time}}</li>
+							    </ul> 
+							    <p>{{excerpt words="33"}}</p>
+							    <a href="{{url}}" class="btn-link">read more</a>
+						    </div>
+					    </div>
+					
+                    </div>
+		   
+		   {{/foreach}}
+           {{/get}}
+           

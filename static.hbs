@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}} | OAKwave Marketing Strategy</title>
+            <link rel="stylesheet" type="text/css" href="{{asset "webfonts/gilroy.css"}}">
+
+        <link rel="stylesheet" type="text/css" href="{{asset "home/css/style.css"}}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        {{> fbpixel}}
+        {{> quora}}
+    {{> google-analytics}}
+    {{!> hotjar}}
+    {{ghost_head}}
+        <script src="https://kit.fontawesome.com/dd47f1ac1c.js" crossorigin="anonymous"></script>
+
+</head>
+<body><!--Big blue-->
+
+    {{{body}}}
+{{> static-footer}}
+
+{{> hubspot}}
+
+    {{!-- Theme Scripts --}}
+        <script src="{{asset "home/js/jquery.min.js"}}"></script>
+    <script src="{{asset "home/js/popper.min.js"}}"></script>
+
+<script src="{{asset "home/js/anime.min.js"}}"></script>
+<script src="{{asset "home/js/main.js"}}"></script>
+<script src="{{asset "home/js/modal.js"}}"></script>
+
+    <script src="{{asset "home/js/scrollreveal.min.js"}}"></script>
+
+
+<script src="{{asset "home/js/bootstrap.min.js"}}"></script>
+
+
+    {{!-- Ghost outputs important scripts & data with the {ghost_foot} tag
+    it should always be the very last thing before the closing body tag --}}
+    {{ghost_foot}}
+
+
+
+</body>
+</html>
+
+

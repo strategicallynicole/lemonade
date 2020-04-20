@@ -1,0 +1,10 @@
+:root {
+  --color-font: #fff;
+  --color-primary: #272b2c;
+  --color-secondary: #232931;
+  --color-link: #7254c9;
+  --color-link-hover: lighten($color-link, 20%);
+  --color-gradient-start: #7254c9;
+  --color-gradient-stop: darken($color-gradient-start, 50%);
+  --color-img-holder: #272b2c;
+}
