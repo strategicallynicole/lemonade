@@ -8,21 +8,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="theme-color" content="#7254c9">
 
-		<link rel="shortcut icon" href="{{asset "favicon.png"}}" />
+		<link rel="shortcut icon" href="./favicon.png" />
 
 		<title>{{meta_title}}</title>
 		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-		<link rel="stylesheet" href="{{asset "vendors/liquid-icon/liquid-icon.min.css"}}" />
-		<link rel="stylesheet" href="{{asset "css/theme-vendors.min.css"}}" />
-		<link rel="stylesheet" href="{{asset "scss/theme.css"}}" />
-		<link rel="stylesheet" href="{{asset "scss/themes/wave.css"}}" />
+		<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
+		<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+		<link rel="stylesheet" href="assets/scss/theme.css" />
+		<link rel="stylesheet" href="assets/scss/themes/wave.css" />
 
 		<!-- Head Libs -->
 		<script async src="assets/vendors/modernizr.min.js"></script>
-{{> fbpixel}}
+ {{> fbpixel}}
         {{!> quora}}
     {{> google-analytics}}
     {{!> hotjar}}
@@ -35,28 +35,145 @@
 
 		<div id="wrap">
 
-{{> home-header}}
+			<header class="main-header header-fullscreen header-fullscreen-style-1 main-header-overlay">
+
+				<div class="mainbar-wrap">
+					<div class="megamenu-hover-bg"></div><!-- /.megamenu-hover-bg -->
+					<div class="container-fluid mainbar-container">
+						<div class="mainbar">
+							<div class="row mainbar-row align-items-lg-stretch px-4">
+
+								<div class="col">
+									<div class="navbar-header">
+										<a class="navbar-brand" href="index.html" rel="home">
+											<span class="navbar-brand-inner">
+												<img class="logo-dark" src="./assets/img/logos/blackandpurplelined.svg" alt="Ave HTML Template">
+												<img class="logo-light" src="./assets/img/logos/whiteandpurplelined.svg" alt="Ave HTML Template">
+												<img class="logo-sticky" src="./assets/img/logos/blackandpurplestacked.svg" alt="Ave HTML Template">
+												<img class="mobile-logo-default" src="./assets/img/logos/whiteandpurplestacked.svg" alt="Ave HTML Template">
+												<img class="logo-default" width="150" src="./assets/img/logos/whiteandpurplelined.svg" alt="Ave HTML Template">
+											</span>
+										</a>
+										<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse"
+										 data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
+											<span class="sr-only">Toggle navigation</span>
+											<span class="bars">
+												<span class="bar"></span>
+												<span class="bar"></span>
+												<span class="bar"></span>
+											</span>
+										</button>
+									</div><!-- /.navbar-header -->
+								</div><!-- /.col -->
+
+								<div class="col text-right">
+
+									<div class="header-module">
+										<button class="nav-trigger collapsed style-1 fill-solid scheme-light txt-left main-nav-trigger" role="button"
+										 type="button" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" aria-controls="main-header-collapse"
+										 data-changeclassnames='{ "html": "overflow-hidden" }'>
+											<span class="bars">
+												<span class="bar"></span>
+												<span class="bar"></span>
+												<span class="bar"></span>
+											</span>
+											<span class="txt">Menu</span>
+										</button>
+									</div><!-- /.header-module -->
+
+									<div class="collapse navbar-collapse navbar-fullscreen" id="main-header-collapse" aria-expanded="false" role="tablist">
+										
+										<ul class="main-nav main-nav-hover-underline-1 nav align-items-lg-stretch justify-content-lg-center main-nav-hover-underline-1 main-nav-fullscreen-style-1">
+											<li>
+												<a href="#">
+													<span class="link-icon"></span>
+													<span class="link-txt">
+														<span class="link-ext"></span>
+														<span class="txt">Home</span>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="link-icon"></span>
+													<span class="link-txt">
+														<span class="link-ext"></span>
+														<span class="txt">Portfolio</span>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="link-icon"></span>
+													<span class="link-txt">
+														<span class="link-ext"></span>
+														<span class="txt">About</span>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="link-icon"></span>
+													<span class="link-txt">
+														<span class="link-ext"></span>
+														<span class="txt">Blog</span>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="link-icon"></span>
+													<span class="link-txt">
+														<span class="link-ext"></span>
+														<span class="txt">Contact</span>
+													</span>
+												</a>
+											</li>
+										</ul>
+
+										<div class="header-module">
+											<ul class="social-icon scheme-white social-icon-md">
+												<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#" target="_blank"><i class="fa fa-behance"></i></a></li>
+											</ul>
+										</div><!-- /.header-module -->
+
+									</div><!-- /.collapse -->
+
+								</div><!-- /.col -->
+
+							</div><!-- /.mainbar-row -->
+						</div><!-- /.mainbar -->
+					</div><!-- /.mainbar-container -->
+				</div><!-- /.mainbar-wrap -->
+
+			</header><!-- /.main-header -->
 
 			<main id="content" class="content bg-black" data-liquid-stack="true" data-stack-options='{"navigation":false,"prevNextButtons":true,"pageNumber":true,"prevNextLabels":{"prev":"Previous","next":"Next"},"effect":"fadeScale", "disableOnMobile": false}'>
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
 
-	{{> particles}}
+				{{> particles}}
 
 					<div class="container">
 						<div class="row">
 
-							<div class="lqd-column col-lg-10 col-md-offset-2">
+							<div class="lqd-column col-lg-10">
 
-						{{> dynamic-shape}}
+								<div class="lqd-promo-wrap text-white">
+									<div class="lqd-promo-inner">
+										
 								
-									{{> promo-message}}
+										{{> dynamic-shape}}
+										{{> promo-message}}
 								
 										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#7D5BA6", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-												<figure>
-													<img src="./assets/img/angryman.png" alt="Promo">
-												</figure>
+											 <picture>
+  <source srcset="{{asset "img/bobtheblobisback.webp"}}" type="image/webp">
+  <img class="img-fluid float-left bob" align="left" src="{{asset "img/bobtheblobisback.png"}}" alt="OAKwave marketing strategy">
+</picture>	
 											</div><!-- /.lqd-promo-img-inner -->
 										</div><!-- /.lqd-promo-img -->
 								
@@ -69,13 +186,13 @@
 												data-split-text="true"
 												data-split-options='{ "type": "chars, words" }'
 												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'> You're mad.  We get it.</h2>
+												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'> Hi.  <br /><span style="font-size: 3rem">We need to talk.</span></h2>
 										
 											<p
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>It's about your marketing and sales strategy again, isn't it?  It's been... underwhelming. We feel you should demand more of your marketing spend.</p>
+												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>It's about your marketing and sales strategy again... It's been... underwhelming. We feel you should demand more of your marketing spend.</p>
 											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
 												<span>
 													<span class="btn-txt">That's Accurate. <i class="fas fa-arrow-circle-right"></i></span>
@@ -95,28 +212,22 @@
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
 
-					{{> particles}}
+{{> particles}}
 
 					<div class="container">
 						<div class="row">
 
-							<div class="lqd-column col-lg-10 col-md-offset-1">
+							<div class="lqd-column col-lg-10 col-md-offset-2">
 
 								<div class="lqd-promo-wrap lqd-promo-reverse text-white">
 									<div class="lqd-promo-inner">
 								
-										{{> dynamic-shape}}
-																{{> promo-message}}
-
-										<div class="lqd-promo-cat">
-											<ul class="reset-ul">
-												<li>a marketing strategy lab and creative machine</li>
-											</ul>
-										</div><!-- /.lqd-promo-cat -->
+								{{> dynamic-shape}}
+								{{> promo-message}}
 								
 										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "rl", "bgcolor": "#7D5BA6", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-												<picture>
+													 <picture>
   <source srcset="{{asset "img/ducky2.webp"}}" type="image/webp">
   <img class="ducky img-fluid" src="{{asset "img/ducky2.png"}}" alt="OAKwave marketing strategy">
 </picture>	
@@ -158,8 +269,8 @@
 				</section>
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
-{{> particles}}
 
+				{{> particles}}
 					<div class="container">
 						<div class="row">
 
@@ -169,16 +280,17 @@
 									<div class="lqd-promo-inner">
 								
 										{{> dynamic-shape}}
-								{{> promo-message}}
 								
-										<div class="lqd-promo-img">
+										{{> promo-message}}
+								
+										<!--<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "rl", "bgcolor": "#7D5BA6", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-												<picture>
+											<picture>
   <source srcset="{{asset "img/chess.webp"}}" type="image/webp">
-  <img class="chess img-fluid" src="{{asset "img/chess.png"}}" alt="OAKwave marketing strategy">
-</picture>	
-											</div><!-- /.lqd-promo-img-inner -->
-										</div><!-- /.lqd-promo-img -->
+  <img class="chess img-fluid" src="{{asset "img/formerlywooden.png"}}" alt="OAKwave marketing strategy">
+</picture>
+											--><!--</div>--><!-- /.lqd-promo-img-inner -->
+										<!--</div> /.lqd-promo-img -->
 								
 										<div class="lqd-promo-content"
 											data-custom-animations="true"
@@ -221,18 +333,30 @@
 					<div class="container">
 						<div class="row">
 
-							<div class="lqd-column col-lg-10 col-md-offset-2">
+							<div class="lqd-column col-lg-10 col-lg-offset-2">
 
-								<div class="lqd-promo-wrap text-white">
+								<div class="lqd-promo-wrap lqd-promo-reverse text-white">
 									<div class="lqd-promo-inner">
 								
-										{{> dynamic-shape}}
-								{{> promo-message}}
+										<div class="lqd-promo-dynamic-shape" data-dynamic-shape="true">
+											<svg class="scene" width="100%" height="100%" fill="rgba(162, 163, 187, 0.05)" viewbox="0 0 650 650">
+												<path
+													d="M717.349,515.468 C693.326,625.562 595.298,708.000 478.000,708.000 C351.735,708.000 247.793,612.479 234.460,489.760 C104.042,484.237 -0.000,376.777 -0.000,245.000 C-0.000,109.690 109.690,-0.000 245.000,-0.000 C330.697,-0.000 406.103,44.009 449.889,110.648 C481.742,95.493 517.376,87.000 555.000,87.000 C690.310,87.000 800.000,196.690 800.000,332.000 C800.000,405.029 768.036,470.582 717.349,515.468 Z"
+													pathdata:id="
+													M717.349,515.468 C693.326,625.562 595.298,708.000 478.000,708.000 C351.735,708.000 247.793,612.479 234.460,489.760 C104.042,484.237 -0.000,376.777 -0.000,245.000 C-0.000,109.690 109.690,-0.000 245.000,-0.000 C330.697,-0.000 406.103,44.009 449.889,110.648 C481.742,95.493 517.376,87.000 555.000,87.000 C690.310,87.000 800.000,196.690 800.000,332.000 C800.000,405.029 768.036,470.582 717.349,515.468 Z;
+													M565.540,489.760 C552.207,612.479 448.265,708.000 322.000,708.000 C204.702,708.000 106.675,625.562 82.651,515.468 C31.964,470.582 -0.000,405.029 -0.000,332.000 C-0.000,196.690 109.690,87.000 245.000,87.000 C282.624,87.000 318.258,95.493 350.111,110.649 C393.897,44.009 469.303,0.000 555.000,0.000 C690.310,0.000 800.000,109.690 800.000,245.000 C800.000,376.777 695.958,484.238 565.540,489.760 Z;
+													M565.540,489.760 C552.207,612.479 448.265,708.000 322.000,708.000 C204.702,708.000 106.675,625.562 82.651,515.468 C31.964,470.582 -0.000,405.029 -0.000,332.000 C-0.000,196.690 109.690,87.000 245.000,87.000 C282.624,87.000 318.258,95.493 350.111,110.649 C393.897,44.009 469.303,0.000 555.000,0.000 C690.310,0.000 800.000,109.690 800.000,245.000 C800.000,376.777 695.958,484.238 565.540,489.760 Z"
+												/>
+											</svg>
+										</div><!-- /.lqd-promo-dynamic-shape -->
+								
+									{{> promo-message}}
+								
 										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "rl", "bgcolor": "#fdf4e9", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-											<picture>
-  <source srcset="{{asset "img/.webp"}}" type="image/webp">
-  <img class="ducky img-fluid" src="{{asset "img/ducky2.png"}}" alt="OAKwave marketing strategy">
+												<picture>
+  <source srcset="{{asset "img/formerlywooden.webp"}}" type="image/webp">
+  <img class="cthulu img-fluid" src="{{asset "img/formerlywooden.png"}}" alt="OAKwave marketing strategy">
 </picture>	
 											</div><!-- /.lqd-promo-img-inner -->
 										</div><!-- /.lqd-promo-img -->
@@ -292,15 +416,18 @@
 								<div class="lqd-promo-wrap text-white">
 									<div class="lqd-promo-inner">
 								
-										{{> dynamic-shape}}
-								{{> promo-message}}	
-										<div class="lqd-promo-img">
+								{{> dynamic-shape}}
+								
+								{{> promo-message}}
+								
+										<!--<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#0a0102", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-												<figure>
-													<img src="./assets/img/one-eyed-monster.png" alt="Promo">
-												</figure>
-											</div><!-- /.lqd-promo-img-inner -->
-										</div><!-- /.lqd-promo-img -->
+											<picture>
+  <source srcset="{{asset "img/brainbombrocket.webp"}}" type="image/webp">
+  <img class="img-fluid" src="{{asset "img/brainbombrocket.png"}}" alt="OAKwave marketing strategy">
+</picture>	
+											</div>--><!-- /.lqd-promo-img-inner -->
+									<!--	</div> /.lqd-promo-img -->
 								
 										<div class="lqd-promo-content"
 											data-custom-animations="true"
@@ -340,7 +467,8 @@
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
 
-				{{> particles}}
+					{{> particles}}
+		
 
 					<div class="container">
 						<div class="row">
@@ -351,12 +479,14 @@
 									<div class="lqd-promo-inner">
 								
 										{{> dynamic-shape}}
-								{{> promo-message}}
+										{{> promo-message}}
+
+								
 										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#0a0102", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-										<picture>
-  <source srcset="{{asset "img/emoji.webp"}}" type="image/webp">
-  <img class="ducky img-fluid" src="{{asset "img/emoji.png"}}" alt="OAKwave marketing strategy">
+																		<picture>
+  <source srcset="{{asset "img/myguy.webp"}}" type="image/webp">
+  <img class="img-fluid metalpurple" src="{{asset "img/myguy.png"}}" alt="OAKwave marketing strategy">
 </picture>	
 											</div><!-- /.lqd-promo-img-inner -->
 										</div><!-- /.lqd-promo-img -->
@@ -395,7 +525,8 @@
 
 				</section>
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
-{{> particles}}
+
+				{{> particles }}
 
 					<div class="container">
 						<div class="row">
@@ -406,11 +537,14 @@
 									<div class="lqd-promo-inner">
 								
 										{{> dynamic-shape}}
-								{{> promo-message}}				<div class="lqd-promo-img">
+										{{> promo-message}}
+
+								
+										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#0a0102", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-										<picture>
-  <source srcset="{{asset "img/bangbang.webp"}}" type="image/webp">
-  <img class="bangbang img-fluid" src="{{asset "img/bangbang.png"}}" alt="OAKwave marketing strategy">
+		<picture>
+  <source srcset="{{asset "img/cthulu.webp"}}" type="image/webp">
+  <img class="img-fluid metalpurple" src="{{asset "img/cthulu.png"}}" alt="OAKwave marketing strategy">
 </picture>	
 											</div><!-- /.lqd-promo-img-inner -->
 										</div><!-- /.lqd-promo-img -->
@@ -459,7 +593,12 @@
 		<script src="./assets/vendors/pagePiling/dist/jquery.pagepiling.min.js"></script>
 		<script src="./assets/js/theme.min.js"></script>
 
+{{>hubspot}}
+    {{!-- Ghost outputs important scripts & data with the {ghost_foot} tag
+    it should always be the very last thing before the closing body tag --}}
+    {{ghost_foot}}
+
+
 	</body>
 
 </html>
-

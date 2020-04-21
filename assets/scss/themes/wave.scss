@@ -10,11 +10,13 @@ $off-gray:  #A2A3BB;
 $black: #272B2C; 
 $bg-color: #27282a;
 
-
+img.img-fluid.float-left.bob {
+	padding-right:60px;
+}
 
 img.ducky {
     padding-left: 50px;
-    max-width: 90%;
+    max-width: 90%; 
 }
 :root {
 	--color-primary: $color-primary;
