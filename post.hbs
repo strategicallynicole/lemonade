@@ -98,9 +98,9 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 							<div class="blog-single-content entry-content pull-up expanded">
 											
 	{{content}}
-		</div><!-- /.blog-single-content entry-content -->
+		<!-- /.blog-single-content entry-content -->
 							
-						<footer class="blog-single-footer entry-footer">
+						<div class="blog-single-footer entry-footer">
 							{{#if primary_tag}}
 								<span class="tags-links">
 									<span class="cat-links">
@@ -120,7 +120,7 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 								</ul><!-- /.social-icon -->
 							</span><!-- /.share-links -->
-						</footer><!-- /.blog-single-footer entry-footer -->
+						</div><!-- /.blog-single-footer entry-footer -->
                    {{!--}    {{#foreach authors}}
 							<div class="post-author">
 								{{#if profile_image}}
@@ -159,9 +159,7 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 </a>                                    {{/next_post}}
                                 </div>
                             </nav><!-- /.post-nav -->
-                      </div>
-						
-							<div id="disqus_thread"></div>
+                            	<div id="disqus_thread"></div>
 									<script>
 											var disqus_config = function () {
 											//this.page.url = PAGE_URL;  
@@ -177,6 +175,9 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 									</script>
 									<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>									
 							
+                      </div>
+						</div>
+						
 						</div><!-- /.col-md-8 -->
 						
 					</div><!-- /.row -->
