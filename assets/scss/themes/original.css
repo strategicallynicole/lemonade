@@ -1,6 +1,10 @@
 html {
-  background: #141622 !important;
-  color: #f2f2f2 !important;
+  background: #141622;
+  color: #f2f2f2;
+}
+
+.post-meta .block {
+  color: #fff;
 }
 
 :root {
@@ -45,7 +49,6 @@ h4, .h4,
 h5, .h5,
 h6 .h6 {
   font-family: 'Fjalla One', 'sans-serif';
-  color: #060221;
 }
 
 .h1,
@@ -84,13 +87,68 @@ h5 {
   line-height: 1.8;
 }
 
+.post-author h3 a {
+  color: #fff;
+}
+
 .liquid-blog-item {
   background-color: #f3f3f3;
   padding: 25px;
 }
 
+@media screen and (max-width: 991px) {
+  .post-nav, .blog-single-footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.nav-next {
+  position: absolute;
+  right: 0%;
+}
+
+.post-nav .nav-title {
+  color: #fff;
+}
+
+h1, .h1 {
+  font-size: 42px;
+  color: #fff !important;
+}
+
+h2, .h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+h1, .h1, .h2, h2, .h3, h3, .h4, h4, h5, .h5, h6, .h6, p, a, span, button, input {
+  z-index: 999 !important;
+}
+
+.blog-single-cover[data-inview=true] .blog-single-title .split-unit:nth-child(1) {
+  font-size: 1.5em;
+}
+
 header.major {
   text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #141622 !important;
+  }
+  h1, .h1 {
+    color: #fff !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: #fff !important;
+  }
 }
 
 .icons li {

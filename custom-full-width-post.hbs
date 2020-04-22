@@ -8,49 +8,21 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 {{#contentFor "headerparts"}}
  class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'
  {{/contentFor}}
-	<header class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'>
-		
-        		{{> "navmenu"}}
-	</header><!-- /.main-header -->
 {{!-- Everything inside the #post tags pulls data from the post --}}
 {{#post}} 
-    <main id="content" class="content py-0">
-
-		<div class="blog-single-cover scheme-light" data-fullheight="true" data-inview="true" data-inview-options='{ "onImagesLoaded": true }' style="background-color: #666871;">
-
-  {{#if feature_image}}
-           	<div class="fullwidth">
-				<figure class="blog-single-media" data-responsive-bg="true" data-parallax="true" data-parallax-options='{ "parallaxBG": true, "triggerHook": "onLeave" }' data-parallax-from='{ "translateY": "0%" }' data-parallax-to='{ "translateY": "20%" }'>
-                {{!-- This is a responsive image, it loads different sizes depending on device
-                https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
-                <img
-                    srcset="{{img_url feature_image size="s"}} 300w,
-                            {{img_url feature_image size="m"}} 600w,
-                            {{img_url feature_image size="l"}} 1000w,
-                            {{img_url feature_image size="xl"}} 2000w"
-                    sizes="(max-width: 800px) 400px,
-                        (max-width: 1170px) 1170px,
-                            2000px"
-                    src="{{img_url feature_image size="xl"}}"
-                    alt="{{title}}"
-                />
-            </figure>
-		</div><!-- /.fullwidth -->
-	{{/if}}
-
-	<div class="blog-single-details" style="z-index: 1;">
-		<div class="container" style="z-index: 2;">
-			<div class="row" style="z-index: 3;">
-				<div class="col-md-6" style="z-index: 4;">	
-					<header style="z-index: 999;" class="entry-header blog-single-header" data-parallax="true" data-parallax-to='{ "opacity": 0, "translateY": "30%" }' data-parallax-options='{ "triggerHook": "0.3" }'>
-								<h1 class="blog-single-title entry-title h2" data-split-text="true" data-split-options='{ "type": "lines" }'>The small change that creates massive results in your life</h1>
+	<div class="blog-single-details">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">			
+					<header class="entry-header blog-single-header" data-parallax="true" data-parallax-to='{ "opacity": 0, "translateY": "30%" }' data-parallax-options='{ "triggerHook": "0.3" }'>
+									<h1 class="blog-single-title entry-title h2" data-split-text="true" data-split-options='{ "type": "lines" }'>The small change that creates massive results in your life</h1>
 									<div class="post-meta">
 										<span class="byline">
-											<span class="whitish block text-uppercase ltr-sp-1">Author:</span>
+											<span class="block text-uppercase ltr-sp-1">Author:</span>
 										    {{#foreach authors}}
-                                                <span class="author vcard whitish">
-                                                    <a class="url fn n" href="{{url}}">{{name}}</a>
-                                                </span>
+											<span class="author vcard">
+												<a class="url fn n" href="{{url}}">{{name}}</a>
+											</span>
 											{{/foreach}}
 										</span>
 										<span class="posted-on">
@@ -62,12 +34,13 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 							{{#if primary_tag}}
 								<span class="cat-links">
 									<span class="block text-uppercase ltr-sp-1">Published in:</span>
-                                        {{#primary_tag}}
-                                            <a href={{url}} rel="{{name}}">{{name}}</a>
-                                        {{/primary_tag}}
-								    </span>
+									{{#primary_tag}}
+										<a href={{url}} rel="{{name}}">{{name}}</a>
+									{{/primary_tag}}
+								</span>
 							{{/if}}
-                        </div><!-- /.post-meta -->
+
+									</div><!-- /.post-meta -->
 								<!--	<div class="blog-single-details-extra">
 										<a href="https://www.youtube.com/watch?v=YJ5q8Wrkbdw" class="lightbox-link fresco">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#000" stroke-width="1px" width="71.5px" height="71.5px">
@@ -89,14 +62,32 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 			
 			<article class="{{post_class}} {{#unless feature_image}}no-image{{/unless}} blog-single">
 				
-				<div style="z-index: 99;" class="container">
+				<div class="container">
 					
 					<div class="row">
 						
 						<div class="col-md-8 col-md-offset-2">
 							
 							<div class="blog-single-content entry-content pull-up expanded">
-											
+												  {{#if feature_image}}
+           	<div class="fullwidth">
+				<figure class="post-full-image">
+                {{!-- This is a responsive image, it loads different sizes depending on device
+                https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
+                <img
+                    srcset="{{img_url feature_image size="s"}} 300w,
+                            {{img_url feature_image size="m"}} 600w,
+                            {{img_url feature_image size="l"}} 1000w,
+                            {{img_url feature_image size="xl"}} 2000w"
+                    sizes="(max-width: 800px) 400px,
+                        (max-width: 1170px) 1170px,
+                            2000px"
+                    src="{{img_url feature_image size="xl"}}"
+                    alt="{{title}}"
+                />
+            </figure>
+		</div><!-- /.fullwidth -->
+	{{/if}}
 	{{content}}
 		</div><!-- /.blog-single-content entry-content -->
 							
@@ -121,7 +112,7 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 								</ul><!-- /.social-icon -->
 							</span><!-- /.share-links -->
 						</footer><!-- /.blog-single-footer entry-footer -->
-                   {{!--}    {{#foreach authors}}
+                        {{#foreach authors}}
 							<div class="post-author">
 								{{#if profile_image}}
 								  	<a href="{{url}}" class="author-avatar">
@@ -136,32 +127,53 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 											<p>{{bio}}</p>
 										{{/if}}
 								</div><!-- /.post-author-info -->
-							{{/foreach}}
-							</div><!-- /.post-author -->--}}
-                            <div class="row">
-                            <nav class="post-nav">
-                                <div class="nav-previous">
-                                    {{#prev_post}}
-<a href="{{url}}" rel="prev">
-    <i class="far fa-arrow-alt-circle-left"></i>
-    <span class="screen-reader-text">Previous Article</span>
-    <span aria-hidden="true" class="nav-subtitle">Previous Article</span>
-    <span class="nav-title">{{title}}</span>
-</a>                                    {{/prev_post}}
-                                </div>						
-                                <div class="nav-next">
-                                    {{#next_post}}
-<a href="{{url}}" rel="prev">
- <i class="far fa-arrow-alt-circle-right"></i>
-    <span class="screen-reader-text">Next Article</span>
-    <span aria-hidden="true" class="nav-subtitle">Next Article</span>
-    <span class="nav-title">{{title}}</span>
-</a>                                    {{/next_post}}
-                                </div>
-                            </nav><!-- /.post-nav -->
-                      </div>
+								
+							</div><!-- /.post-author -->
+						{{/foreach}}
+							<nav class="post-nav">
+								<div class="nav-previous">
+									<a href="#" rel="prev">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
+											<g>
+												<line stroke-miterlimit="10" x1="22" y1="12" x2="2" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
+												<polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
+											</g>
+										</svg>
+										<span class="screen-reader-text">Previous Article</span>
+										<span aria-hidden="true" class="nav-subtitle">Previous Article</span>
+										<span class="nav-title">Compare prices find the best computer accessory</span>
+									</a>
+								</div>
+								
+								<div class="nav-next">
+									<a href="#" rel="next">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#444" stroke-width="2" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" width="24" height="24">
+											<g transform="rotate(180 12,12) ">
+												<line stroke-miterlimit="10" x1="22" y1="12" x2="2" y2="12" stroke-linejoin="miter" stroke-linecap="butt"></line>
+												<polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
+											</g>
+										</svg>
+										<span class="screen-reader-text">Next Article</span>
+										<span aria-hidden="true" class="nav-subtitle">Next Article</span>
+										<span class="nav-title">Enhance wellness by doing something different!</span>
+									</a>
+								</div>
+								
+							</nav><!-- /.post-nav -->
+							
+						</div><!-- /.col-md-8 -->
 						
-							<div id="disqus_thread"></div>
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+				
+				<div id="comments" class="comments-area">
+					
+					<div id="respond" class="comment-respond filled">
+						
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+									<div id="disqus_thread"></div>
 									<script>
 											var disqus_config = function () {
 											//this.page.url = PAGE_URL;  
@@ -176,16 +188,14 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 											})();
 									</script>
 									<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>									
-							
-						</div><!-- /.col-md-8 -->
-						
-					</div><!-- /.row -->
- 
-			                 
-				</div><!-- /.container -->
-				
+								</div><!-- /.col-md-8 col-md-offset-2 -->
+							</div><!-- /.row -->
+						</div><!-- /.container -->
+					</div><!-- /.comment-form -->					
+				</div><!-- /.comments-area -->
 			</article><!-- /.blog-single -->
 		</main><!-- /#content.content -->
-
+{{#post}}
+{{> "nextprev"}}
 {{/post}}
-			<script id="dsq-count-scr" src="//www-oakwave-com.disqus.com/count.js" async></script>
+		

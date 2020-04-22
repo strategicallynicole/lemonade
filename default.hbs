@@ -18,15 +18,17 @@
     {{> quora}}
     {{> google-analytics}}
     {{!> hotjar}}
+			<link rel="stylesheet" href="{{asset "vendors/bootstrap/css/bootstrap.min.css"}}" />
+
 	<link rel="stylesheet" href="{{asset "vendors/liquid-icon/liquid-icon.min.css"}}" />
 		<link rel="stylesheet" href="{{asset "css/theme-vendors.min.css"}}" />
-		<link rel="stylesheet" href="{{asset "scss/themes/original.css"}}" />
 				<link rel="stylesheet" href="{{asset "scss/theme.css"}}" />
+				<link rel="stylesheet" href="{{asset "scss/theme-rtl.css"}}" />
 
 		<title>{{meta_title}}</title>
 		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-		<script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-	
+			<link rel="stylesheet" href="{{asset "scss/themes/original.css"}}" />
+
 		<!-- Head Libs -->
 		<script async src="{{asset "vendors/modernizr.min.js"}}"></script>
  	{{> "fbpixel"}}
@@ -36,42 +38,17 @@
     {{ghost_head}}
     <script src="https://kit.fontawesome.com/dd47f1ac1c.js" crossorigin="anonymous"></script>
 </head>
-	<body {{block "bodyparts"}}>
+	<body {{{block "bodyparts"}}}>
 		<div id="wrap">
-			
-			<div class="titlebar titlebar-sm scheme-light text-center" data-parallax="true" data-parallax-options='{ "parallaxBG": true }' style="background-color: #27282a;">
-				<header {{{block "headerparts"}}}>
-					{{> "navmenu"}}
-				</header><!-- /.main-header -->
-<div class="titlebar-inner">   
-				<img alt="oakwaves" src="{{asset "img/movingwaves.svg"}}" width="100%" style="position: absolute;
-    z-index: -2;
-    top: -120px;
-    left: 0;
-    width: 100%;
-    background-color: #4c4c4c;" />
-				<div class="container titlebar-container">
-					<div class="row titlebar-container">
-						<div class="titlebar-col col-md-12">
-							<h1 data-fittext="true" data-fittext-options='{ "maxFontSize": 80, "minFontSize": 32 }'>with Sidebar</h1>
-							<a class="titlebar-scroll-link" href="#content" data-localscroll="true"><i class="fa fa-angle-down"></i></a>
-						</div><!-- /.titlebar-col -->
-					</div><!-- /.titlebar-row -->
-				</div><!-- /.titlebar-container -->
-			</div><!-- /.titlebar-inner -->
-			
-		</div><!-- /.titlebar -->
-					<main id="content" {{{block "pageparts"}}}>		<div style="padding-bottom:50px;"></div>
-
-		{{> "particles-interior"}}
-
-			    {{{body}}}
-			{{> "cta"}}
-		</main><!-- /#content.content -->         
-						{{> "footer"}}
-
-	</div><!-- /#wrap -->
-	{{> "hubspot"}}
+			<main id="content py-0" {{{block "pageparts"}}}>
+				                      {{> "particles"}}	
+		
+				{{{body}}}
+				{{> "cta"}}
+			</main><!-- /#content.content -->         
+				{{> "footer"}}
+			</div><!-- /#wrap -->
+				{{> "hubspot"}}
    	<script src="{{asset "js/jquery.min.js"}}"></script>
    	<script src="{{asset "js/theme-vendors.js"}}"></script>
     <script src="{{asset "js/theme.min.js"}}"></script>

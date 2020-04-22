@@ -1,16 +1,23 @@
-
-		
-
-			<div  class="titlebar-inner">
-      <div class="container titlebar-container"  data-parallax="true" data-parallax-options='{ "parallaxBG": true }' style="background-image: url('{{asset "/img/banner.svg"}}')">
-					<div class="row titlebar-container">
-						<div class="titlebar-col col-md-12">
-							<h1 data-fittext="true" data-fittext-options='{ "maxFontSize": 80, "minFontSize": 32 }'>{{title}}</h1>
-							<a class="titlebar-scroll-link" href="#content" data-localscroll="true"><i class="fa fa-angle-down"></i></a>
-						</div><!-- /.titlebar-col -->
-					</div><!-- /.titlebar-row -->
-				</div><!-- /.titlebar-container -->
-			</div><!-- /.titlebar-inner -->
-			
-		</div><!-- /.titlebar -->
+<div class="titlebar titlebar-sm scheme-light text-center" data-parallax="true" data-parallax-options='{ "parallaxBG": true }' style="background-color: #27282a;">
+<header {{{block "headerparts"}}}>
+		{{> "navmenu"}}
+	</header><!-- /.main-header -->
 	
+	<div class="titlebar-inner">   
+		<img alt="oakwaves" src="{{asset "img/movingwaves.svg"}}" width="100%" style="position: absolute;
+			z-index: -2;
+			top: -120px;
+			left: 0;
+			width: 100%;
+			background-color: #4c4c4c;" />
+		<div class="container titlebar-container">
+			<div class="row titlebar-container">
+				<div class="titlebar-col col-md-12">
+					<h1 data-fittext="true" data-fittext-options='{ "maxFontSize": 80, "minFontSize": 32 }'>{{@blog.title}}</h1>
+					<a class="titlebar-scroll-link" href="#content" data-localscroll="true"><i class="fa fa-angle-down"></i></a>
+				</div><!-- /.titlebar-col -->
+			</div><!-- /.titlebar-row -->
+		</div><!-- /.titlebar-container -->
+	</div><!-- /.titlebar-inner -->
+
+</div><!-- /.titlebar -->
