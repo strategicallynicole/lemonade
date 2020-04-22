@@ -1,57 +1,51 @@
 {{!< default}}
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
+{{#contentFor "bodyparts"}}
+ class="blog bg-vulcan" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="black" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199"
+{{/contentFor}}
 
+{{#contentFor "headerparts"}}
+ class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'
+ {{/contentFor}}
 
-{{!-- Featured Post --}}
-{{#is "home"}}
-{{#get "posts" filter="featured:true" limit="1" as |featured_post|}}
-    {{#foreach featured_post}}
-        <article id="banner">
-            <div class="content">
-                <header>
-                    <h1><a href="{{url}}">{{title}}</a></h1>
-                    {{#if custom_excerpt}}<p>{{custom_excerpt}}</p>{{/if}}
-                </header>
-                {{content words="42"}}
-                <ul class="actions">
-                    <li><a href="{{url}}" class="lm-btn primary button">Read On</a></li>
-                </ul>
-            </div>
-            {{#if feature_image}}
-            <a href="{{url}}" class="image object">
-                <img src="{{img_url feature_image}}" alt="{{title}}" />
-            </a>
-            {{/if}}
-        </article>
-    {{/foreach}}
-{{/get}}
-{{/is}}
+ {{#contentFor "pageparts"}}
+ {{/contentFor}}
+ <div class="container">
+     <div class="row">
+			<div class="col-md-8">
+                <div class="liquid-blog-posts liquid-blog-scheme-dark">
+					<div class="liquid-blog-grid liquid-blog-style-classic row">
+                                                         
+                                {{#get "posts" filter="featured:true" include="tags" limit="1" as |featured_post|}}
+                                     {{!#is "index"}} 
+                                      {{#foreach featured_post}}
+                                        {{> "post-card"}}
+                                                                                  {{/foreach}}
+                              {{!/is}}
+                                         {{/get}}
+                               
+					            {{#get "posts" filter="featured:false, page:false" limit="9" include="tags" }}
+                                                                        {{!#is "index"}} 
 
-{{!-- Posts --}}
-<section>
+                                    {{#foreach posts}}
+                                        {{> "post-card"}}
+                                    {{/foreach}}
+                                    {{!/is}}
+                                {{/get}}
+                            
+                            {{pagination}}
 
-    <header class="major">
-        <h2 class="whitish">our meandering opinions</h2>
-    </header>
+							</div><!-- /.liquid-blog-grid liquid-blog-style-classic row -->
+                            {{!-- Pagination --}}
+						</div><!-- /.liquid-blog-posts -->
 
-    <section class="posts">
-        {{#foreach posts}}
-        <article>
-            {{#if feature_image}}
-            <a href="{{url}}" class="image fit"><img src="{{img_url feature_image}}" alt="{{title}}" /></a>
-            {{/if}}
-            <h3><a href="{{url}}">{{title}}</a></h3>
-            <p>{{excerpt words="33"}}</p>
-            <ul class="actions special">
-							    <a href="{{url}}" class="btn-link">read more</a>
-            </ul>
-        </article>
-        {{/foreach}}
-    </section>
+					</div><!-- /.col-md-8 -->
 
-</section>
+					{{> "sidebar"}}
 
-{{!-- Pagination --}}
-{{pagination}}
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		
+
 

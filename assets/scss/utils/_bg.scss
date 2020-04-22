@@ -1,41 +1,41 @@
 .bg-primary {
-	background: var(--color-primary) !important;
+	background: #27282a !important;
 }
 .bg-secondary {
-	background: var(--color-secondary) !important;
+	background: #141622 !important;
 }
 .bg-transparent {
 	background: transparent !important;
 }
 .bg-white {
-	background: $white !important;
+	background: #27282a !important;
 }
 .bg-black {
-	background: $black !important;
+	background: #27282a !important;
 }
 .bg-gray {
-	background: $off-gray !important;
+	background: #141622 !important;
 }
 .bg-gray-2 {
-	background: #fafafa !important;
+	background: #141622 !important;
 }
 .bg-gray-3 {
-	background: #f1f1f1 !important;
+	background: #141622 !important;
 }
 .bg-light {
-	background: #f7f8fb !important;
+	background: #141622 !important;
 }
 .bg-dark {
 	background: #212121 !important;
 }
 .bg-mirage {
-	background: #181b31 !important;
+	background: #141622 !important;
 }
 .bg-vulcan {
 	background: #141622 !important;
 }
 .bg-charade {
-	background: #2D323D !important;
+	background: #212121 !important;
 }
 .bg-tundora {
 	background: #40383C !important;
@@ -47,28 +47,28 @@
 	background: $bg-color !important;
 }
 .bg-athens-gray {
-	background: #F8F9FA !important;
+	background: #27282a !important;
 }
 .bg-ebony-clay {
-	background: #252c42 !important;
+	background: #27282a !important;
 }
 .bg-link-water {
-	background: #DCE9F6 !important;
+	background: #27282a !important;
 }
 .bg-swans-down {
-	background: #dbf1f1 !important;
+	background: #27282a !important;
 }
 .bg-old-lace {
-	background: #fcece1 !important;
+	background: #27282a !important;
 }
 .bg-woodsmoke {
-	background: #0e0f14 !important;
+	background: #27282a !important;
 }
 .bg-cape-cod {
-	background: #343535 !important;
+	background: #27282a !important;
 }
 .bg-zircon {
-	background: #f8faff !important;
+	background: #27282a !important;
 }
 
 $count: 0.05;
@@ -76,10 +76,10 @@ $count: 0.05;
 @while $count < 0.9 {
 
 	.bg-fade-dark-#{str-replace(unquote("#{$count}"), '.', '')} {
-		background-color: rgba(#000, $count) !important;
+		background-color: rgba(#27282a, $count) !important;
 	}
 	.bg-fade-white-#{str-replace(unquote("#{$count}"), '.', '')} {
-		background-color: rgba(#fff, $count) !important;
+		background-color: rgba(#27282a, $count) !important;
 	}
 
 	$count: $count + 0.05;

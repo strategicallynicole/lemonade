@@ -1,27 +1,41 @@
-@font-face {
-  font-family: 'Cerebri Sans';
-  src: url("../../fonts/cerebri-sans.woff2") format("woff2"), url("../../fonts/cerebri-sans.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+html {
+  background: #141622 !important;
+  color: #f2f2f2 !important;
 }
 
 :root {
-  --color-primary: #4762ff;
-  --color-secondary: #ff6363;
-  --color-tertiary: #ac1de1;
-  --color-gradient-start: #4762ff;
-  --color-gradient-stop: #ff798e;
-  --color-gradient-start-secondary: #0bccee;
-  --color-gradient-stop-secondary: #ac1de1;
-  --color-gradient-start-tertiary: #ffba83;
-  --color-gradient-stop-tertiary: #ffa5cd;
+  --color-primary: $color-primary;
+  --color-secondary: darken($color-primary, 25%);
+  --color-gradient-start: $color-primary;
+  --color-gradient-stop: darken($color-gradient-start, 50%);
+  --white: $white;
+  --muted-purple: $muted-purple;
+  --blue: $blue;
+  --off-gray:  $off-gray;
+  --black: $black;
+}
+
+wpb_widgetised_column .widget-title, .main-sidebar .widget-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 body {
-  font-family: 'Cerebri Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
   line-height: 1.9em;
   color: #828282;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase !important;
+  font-family: 'Fjalla One', sans-serif !important;
 }
 
 h1, .h1,
@@ -30,7 +44,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6 .h6 {
-  font-family: 'neuzeit-grotesk', 'sans-serif';
+  font-family: 'Fjalla One', 'sans-serif';
   color: #060221;
 }
 
@@ -65,18 +79,52 @@ h5 {
   line-height: 1.6em;
 }
 
-.h6,
-h6 {
+.h6 {
   font-size: 18px;
   line-height: 1.8;
 }
 
+.liquid-blog-item {
+  background-color: #f3f3f3;
+  padding: 25px;
+}
+
+header.major {
+  text-align: center;
+}
+
+.icons li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+.links ul {
+  text-align: center;
+}
+
+.liquid-lp-details {
+  width: 100%;
+  text-align: center;
+}
+
 .font-family-roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .font-family-amiri {
-  font-family: 'Amiri', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.meta-data {
+  list-style: none;
+  display: inline-block;
+}
+
+.meta-data li {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .main-header .social-icon {
@@ -139,26 +187,90 @@ h6 {
 
 @media (min-width: 1200px) {
   .main-header .is-stuck {
-    background: #fff !important;
+    background: #3b3b3b !important;
   }
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
   .mainbar-wrap.is-stuck .main-nav > li > a,
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
-    color: rgba(0, 0, 0, 0.7) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
   }
   .mainbar-wrap.is-stuck .social-icon a:hover,
   .mainbar-wrap.is-stuck .main-nav > li > a:hover {
-    color: #000 !important;
+    color: #f2f2f2 !important;
   }
   .megamenu-heading {
-    color: #3b91f7;
+    color: #f2f2f2;
   }
   [data-megamenu-bg-scheme=light] .lqd-custom-menu a {
-    color: #3e3f42;
+    color: #f2f2f2;
   }
   .megamenu .lqd-custom-menu a:hover {
-    color: #3b91f7;
+    color: #f2f2f2;
   }
+}
+
+.whitish {
+  color: #f2f2f2 !important;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.call-to-action-area {
+  color: #fff !important;
+  z-index: 1;
+  background-image: url("../../img/purplepurplewaves.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  background-position-y: -100px;
+  background-attachment: fixed;
+}
+
+.section-spacing {
+  padding: 100px 0;
+}
+
+.bg-color2 {
+  background: #8066dc;
+}
+
+.btn {
+  color: #fff;
+  border-color: #fff !important;
+}
+
+.btn:hover, .btn:focus {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+:hover {
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.call-to-action-area:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff !important;
+  bottom: 0;
+  right: 0;
+}
+
+::-moz-selection {
+  background: #1d1e21;
+  text-shadow: none;
+  color: #fff;
+}
+
+::selection {
+  background: #1d1e21;
+  text-shadow: none;
+  color: #fff;
 }
 /*# sourceMappingURL=original.css.map */

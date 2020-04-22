@@ -1,0 +1,48 @@
+<div class="col-md-12">
+        <article class="liquid-lp liquid-blog-item liquid-blog-item-grid liquid-blog-scheme-dark mb-50">
+            {{#if feature_image}}
+                <figure class="liquid-lp-media">
+                <a href="{{url}}">
+                        <img src=" {{img_url feature_image}}" alt="{{title}}">
+                    </a>
+                </figure>
+                    {{/if}}
+                <div class="liquid-blog-item-inner">
+                    
+                    <a href="{{url}}" class="liquid-overlay-link">{{title}}</a>
+            
+                    <header class="liquid-lp-header">
+                        <h2 class="liquid-lp-title font-weight-bold h3 size-sm">
+                            <a href="{{url}}" data-split-text="text" data-split-options='{ "type": "lines" }'>{{title}}</a>
+                        </h2>
+                        <div class="liquid-lp-details">
+                           <ul class="meta-data"><li><time class="liquid-lp-date" datetime="{{date}}"><i class="fa fas fa-calendar"></i> {{date}}</time></li>
+                 <li>    <i class="fa fas fa-clock"></i>   {{reading_time}} {{#if primary_tag}}</li>
+                            
+                           <li> <ul class="liquid-lp-category">
+                                    {{#primary_tag}}
+                                    <li><i class="fa fas fa-tag"></i> <a href="{{url}}">{{name}}</a></li>
+                                    {{/primary_tag}}
+                            </ul></li>
+
+                        {{/if}}	</ul>
+                        </div><!-- /.liquid-lp-details -->
+                    </header>
+                    
+                    
+            {{#if custom_excerpt}}<div class="liquid-lp-excerpt"><p> {{custom_excerpt}}</p></div>{{/if}}											
+                    <footer class="liquid-lp-footer">
+                        <a href="{{url}}" class="btn btn-naked text-uppercase ltr-sp-1 size-sm font-weight-bold liquid-lp-read-more">
+                            <span>
+                                <span class="btn-line btn-line-before"></span>
+                                <span class="btn-txt">Continue Reading</span>
+                                <span class="btn-line btn-line-after"></span>
+                            </span>
+                        </a>
+                    </footer>
+                    
+                </div><!-- /.liquid-blog-item-inner -->
+                
+            </article>
+
+	</div><!-- /.col-md-12 -->

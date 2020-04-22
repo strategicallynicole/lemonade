@@ -13,15 +13,15 @@
 		<title>{{meta_title}}</title>
 		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-		<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
-		<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
-		<link rel="stylesheet" href="assets/scss/theme.css" />
-		<link rel="stylesheet" href="assets/scss/themes/wave.css" />
+		<link rel="stylesheet" href="{{asset "vendors/liquid-icon/liquid-icon.min.css"}}" />
+		<link rel="stylesheet" href="{{asset "css/theme-vendors.min.css"}}" />
+		<link rel="stylesheet" href="{{asset "scss/theme.css"}}" />
+		<link rel="stylesheet" href="{{asset "scss/themes/wave.css"}}" />
+<script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 
 		<!-- Head Libs -->
-		<script async src="assets/vendors/modernizr.min.js"></script>
+		<script async src="{{asset "vendors/modernizr.min.js"}}"></script>
  {{> fbpixel}}
         {{!> quora}}
     {{> google-analytics}}
@@ -47,11 +47,11 @@
 									<div class="navbar-header">
 										<a class="navbar-brand" href="index.html" rel="home">
 											<span class="navbar-brand-inner">
-												<img class="logo-dark" src="./assets/img/logos/blackandpurplelined.svg" alt="Ave HTML Template">
-												<img class="logo-light" src="./assets/img/logos/whiteandpurplelined.svg" alt="Ave HTML Template">
-												<img class="logo-sticky" src="./assets/img/logos/blackandpurplestacked.svg" alt="Ave HTML Template">
-												<img class="mobile-logo-default" src="./assets/img/logos/whiteandpurplestacked.svg" alt="Ave HTML Template">
-												<img class="logo-default" width="150" src="./assets/img/logos/whiteandpurplelined.svg" alt="Ave HTML Template">
+												<img class="logo-dark" src="{{asset "img/logos/blackandpurplelined.svg"}}" alt="OAK">
+												<img class="logo-light" src="{{asset "img/logos/whiteandpurplelined.svg"}}" alt="Ave HTML Template">
+												<img class="logo-sticky" src="{{asset "img/logos/blackandpurplestacked.svg"}}" alt="Ave HTML Template">
+												<img class="mobile-logo-default" src="{{asset "img/logos/whiteandpurplestacked.svg"}}" alt="Ave HTML Template">
+												<img class="logo-default" width="150" src="{{asset "img/logos/whiteandpurplelined.svg"}}" alt="Ave HTML Template">
 											</span>
 										</a>
 										<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse"
@@ -154,7 +154,7 @@
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
 
-				{{> particles}}
+				{{> "particles"}}
 
 					<div class="container">
 						<div class="row">
@@ -170,9 +170,9 @@
 								
 										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#7D5BA6", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-											 <picture>
-  <source srcset="{{asset "img/bobtheblobisback.webp"}}" type="image/webp">
-  <img class="img-fluid float-left bob" align="left" src="{{asset "img/bobtheblobisback.png"}}" alt="OAKwave marketing strategy">
+										<picture>
+  <source srcset="{{asset "img/cthulu.webp"}}" type="image/webp">
+  <img class="img-fluid metalpurple" src="{{asset "img/cthulu.png"}}" alt="OAKwave marketing strategy">
 </picture>	
 											</div><!-- /.lqd-promo-img-inner -->
 										</div><!-- /.lqd-promo-img -->
@@ -212,7 +212,7 @@
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
 
-{{> particles}}
+{{> "particles" }}
 
 					<div class="container">
 						<div class="row">
@@ -244,7 +244,7 @@
 												data-split-options='{ "type": "chars, words" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 500, "startDelay": 200, "delay": 50, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>We help businesses <span class="purplish">quit duckin' around</span> with marketing &amp; sales.</h2>
+											>We help businesses <span class="purplish">quit duckin' around</span> with marketing.</h2>
 											<br /><p
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
@@ -253,7 +253,8 @@
 												We could make a site that says all the usual agency s@#$, but you don’t have time for that and neither do we.  </p>
 											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
 												<span>
-													<span class="btn-txt">Show the need-to-know info <i class="fas fa-arrow-circle-right"></i></span>
+													<span class="btn-txt">Show the need-to-know info <i class="fas fa-arrow-circle-right"></i></span><br />
+													<span class="btn-txt">Schedule a call<i class="fas fa-arrow-circle-right"></i></span>
 												</span>
 											</a>
 										</div><!-- /.lqd-promo-content -->
@@ -270,11 +271,11 @@
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
 
-				{{> particles}}
+				{{> "particles" }}
 					<div class="container">
 						<div class="row">
 
-							<div class="lqd-column col-lg-10 col-md-offset-2">
+							<div class="lqd-column col-lg-10 col-lg-offset-1">
 
 								<div class="lqd-promo-wrap text-white">
 									<div class="lqd-promo-inner">
@@ -283,14 +284,14 @@
 								
 										{{> promo-message}}
 								
-										<!--<div class="lqd-promo-img">
+										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "rl", "bgcolor": "#7D5BA6", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
 											<picture>
-  <source srcset="{{asset "img/chess.webp"}}" type="image/webp">
-  <img class="chess img-fluid" src="{{asset "img/formerlywooden.png"}}" alt="OAKwave marketing strategy">
+  <source srcset="{{asset "img/bobtheblobisback.webp"}}" type="image/webp">
+  <img class="bob img-fluid" src="{{asset "img/bobtheblobisback.png"}}" alt="OAKwave marketing strategy">
 </picture>
-											--><!--</div>--><!-- /.lqd-promo-img-inner -->
-										<!--</div> /.lqd-promo-img -->
+									</div><!-- /.lqd-promo-img-inner -->
+									</div><!-- /.lqd-promo-img -->
 								
 										<div class="lqd-promo-content"
 											data-custom-animations="true"
@@ -302,18 +303,36 @@
 												data-split-options='{ "type": "chars, words" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>Fact #1:</h2>
-											<p
+											>Facts:</h2><br />
+											<p class="less-room"
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-											>Hands down, we are the most resourceful, creative, problem-solving marketing geniuses you will ever find.</p>
+											><span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; Hands down, we are the most resourceful, creative, problem-solving marketing geniuses you will ever find.</p><br />
+											
+											<p class="less-room"
+												data-split-text="true"
+												data-split-options='{ "type": "lines" }'
+												data-custom-animations="true"
+												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1100, "delay": 150, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
+												<span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; We’re really, really good at campaign concepts, branding, content, and strategy... and really, really bad at corporate frills, small talk, and sending Christmas cards.</p><br />
+											
+											<p class="less-room"
+												data-split-text="true"
+												data-split-options='{ "type": "lines" }'
+												data-custom-animations="true"
+												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1200, "delay": 180, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
+											><span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; Your revenue is the only KPI that matters.  Everything else is just <span class="strike purplish">bullshit</span> agency fluff and nonsense to make their retainer look worth it.</p><br />
+											
+											
+											
+											<p class="less-room"><!--And here's some more info about how we do <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">content, branding, campaigns</a>, or <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">strategy</a>.  <br />-->
 											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
 												<span>
-													<span class="btn-txt">And #2?<i class="fas fa-arrow-circle-right"></i></span>
+													<span class="btn-txt">What else should be known about OAKwave?<i class="fas fa-arrow-circle-right"></i></span>
 												</span>
-											</a>
+											</a></p>
 										</div><!-- /.lqd-promo-content -->
 								
 									</div><!-- /.lqd-promo-inner -->
@@ -328,29 +347,17 @@
 
 				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
 
-					{{> particles}}
+					{{> "particles" }}
 
 					<div class="container">
 						<div class="row">
 
 							<div class="lqd-column col-lg-10 col-lg-offset-2">
 
-								<div class="lqd-promo-wrap lqd-promo-reverse text-white">
+								<div class="lqd-promo-wrap lqd-promo text-white">
 									<div class="lqd-promo-inner">
-								
-										<div class="lqd-promo-dynamic-shape" data-dynamic-shape="true">
-											<svg class="scene" width="100%" height="100%" fill="rgba(162, 163, 187, 0.05)" viewbox="0 0 650 650">
-												<path
-													d="M717.349,515.468 C693.326,625.562 595.298,708.000 478.000,708.000 C351.735,708.000 247.793,612.479 234.460,489.760 C104.042,484.237 -0.000,376.777 -0.000,245.000 C-0.000,109.690 109.690,-0.000 245.000,-0.000 C330.697,-0.000 406.103,44.009 449.889,110.648 C481.742,95.493 517.376,87.000 555.000,87.000 C690.310,87.000 800.000,196.690 800.000,332.000 C800.000,405.029 768.036,470.582 717.349,515.468 Z"
-													pathdata:id="
-													M717.349,515.468 C693.326,625.562 595.298,708.000 478.000,708.000 C351.735,708.000 247.793,612.479 234.460,489.760 C104.042,484.237 -0.000,376.777 -0.000,245.000 C-0.000,109.690 109.690,-0.000 245.000,-0.000 C330.697,-0.000 406.103,44.009 449.889,110.648 C481.742,95.493 517.376,87.000 555.000,87.000 C690.310,87.000 800.000,196.690 800.000,332.000 C800.000,405.029 768.036,470.582 717.349,515.468 Z;
-													M565.540,489.760 C552.207,612.479 448.265,708.000 322.000,708.000 C204.702,708.000 106.675,625.562 82.651,515.468 C31.964,470.582 -0.000,405.029 -0.000,332.000 C-0.000,196.690 109.690,87.000 245.000,87.000 C282.624,87.000 318.258,95.493 350.111,110.649 C393.897,44.009 469.303,0.000 555.000,0.000 C690.310,0.000 800.000,109.690 800.000,245.000 C800.000,376.777 695.958,484.238 565.540,489.760 Z;
-													M565.540,489.760 C552.207,612.479 448.265,708.000 322.000,708.000 C204.702,708.000 106.675,625.562 82.651,515.468 C31.964,470.582 -0.000,405.029 -0.000,332.000 C-0.000,196.690 109.690,87.000 245.000,87.000 C282.624,87.000 318.258,95.493 350.111,110.649 C393.897,44.009 469.303,0.000 555.000,0.000 C690.310,0.000 800.000,109.690 800.000,245.000 C800.000,376.777 695.958,484.238 565.540,489.760 Z"
-												/>
-											</svg>
-										</div><!-- /.lqd-promo-dynamic-shape -->
-								
-									{{> promo-message}}
+								{{> "dynamic-shape"}}
+									{{> "promo-message"}}
 								
 										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "rl", "bgcolor": "#fdf4e9", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
@@ -361,6 +368,7 @@
 											</div><!-- /.lqd-promo-img-inner -->
 										</div><!-- /.lqd-promo-img -->
 								
+										
 										<div class="lqd-promo-content"
 											data-custom-animations="true"
 											data-ca-options='{ "triggerHandler": "inview", "animationTarget": ".btn", "duration": 800, "startDelay": 1300, "initValues": { "translateY": 70, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
@@ -371,206 +379,33 @@
 												data-split-options='{ "type": "chars, words" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>Fact #2:</h2>
-											<p
-												data-split-text="true"
-												data-split-options='{ "type": "lines" }'
-												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
-											We’re really, really good at campaign concepts, branding, content, and strategy... and really, really bad at corporate frills, small talk, and sending Christmas cards.		</p>
-											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
-												<span>
-													<span class="btn-txt">
-														What's Behind Door #3?<i class="fas fa-arrow-circle-right"></i></span>
-												</span>
-											</a>
-										
-											<p
-											data-split-text="true"
-											data-split-options='{ "type": "lines" }'
-											data-custom-animations="true"
-											data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
-										Or learn more about how we do <br /><a class="muted-purplish" href="">content, branding, campaigns</a>, or <a href="">strategy</a>.	</p>
-										
-										</div><!-- /.lqd-promo-content -->
-								
-									</div><!-- /.lqd-promo-inner -->
-								</div><!-- /.lqd-promo-wrap -->
-
-							</div><!-- /.col-md-8 col-md-offset-2 -->
-
-						</div><!-- /.row -->
-					</div><!-- /.container -->
-
-				</section>
-
-				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
-
-				{{> particles}}
-
-					<div class="container">
-						<div class="row">
-
-							<div class="lqd-column col-lg-10 col-md-offset-2">
-
-								<div class="lqd-promo-wrap text-white">
-									<div class="lqd-promo-inner">
-								
-								{{> dynamic-shape}}
-								
-								{{> promo-message}}
-								
-										<!--<div class="lqd-promo-img">
-											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#0a0102", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-											<picture>
-  <source srcset="{{asset "img/brainbombrocket.webp"}}" type="image/webp">
-  <img class="img-fluid" src="{{asset "img/brainbombrocket.png"}}" alt="OAKwave marketing strategy">
-</picture>	
-											</div>--><!-- /.lqd-promo-img-inner -->
-									<!--	</div> /.lqd-promo-img -->
-								
-										<div class="lqd-promo-content"
-											data-custom-animations="true"
-											data-ca-options='{ "triggerHandler": "inview", "animationTarget": ".btn", "duration": 800, "startDelay": 1300, "initValues": { "translateY": 70, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-										>
-											<h2
-												class="text-white"
-												data-split-text="true"
-												data-split-options='{ "type": "chars, words" }'
-												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>Fact #3:</h2>
-											<p
+											>Facts:</h2><br />
+											<p class="less-room"
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-											>Your revenue is the only KPI that matters.  Everything else is just <span class="strike purplish">bull</span><span class="purplish">shittake mushroom</span> nonsense to make agencies look good.
-										</p>
-											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
-												<span>
-													<span class="btn-txt">Where's #4?</span>
-												</span>
-											</a>
-										</div><!-- /.lqd-promo-content -->
-								
-									</div><!-- /.lqd-promo-inner -->
-								</div><!-- /.lqd-promo-wrap -->
-
-							</div><!-- /.col-md-8 col-md-offset-2 -->
-
-						</div><!-- /.row -->
-					</div><!-- /.container -->
-
-				</section>
-
-
-				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
-
-					{{> particles}}
-		
-
-					<div class="container">
-						<div class="row">
-
-							<div class="lqd-column col-lg-10 col-md-offset-2">
-
-								<div class="lqd-promo-wrap text-white">
-									<div class="lqd-promo-inner">
-								
-										{{> dynamic-shape}}
-										{{> promo-message}}
-
-								
-										<div class="lqd-promo-img">
-											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#0a0102", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-																		<picture>
-  <source srcset="{{asset "img/myguy.webp"}}" type="image/webp">
-  <img class="img-fluid metalpurple" src="{{asset "img/myguy.png"}}" alt="OAKwave marketing strategy">
-</picture>	
-											</div><!-- /.lqd-promo-img-inner -->
-										</div><!-- /.lqd-promo-img -->
-								
-										<div class="lqd-promo-content"
-											data-custom-animations="true"
-											data-ca-options='{ "triggerHandler": "inview", "animationTarget": ".btn", "duration": 800, "startDelay": 1300, "initValues": { "translateY": 70, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-										>
-											<h2
-												class="text-white"
-												data-split-text="true"
-												data-split-options='{ "type": "chars, words" }'
-												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>Fact #4:</h2>
-											<p
+											><span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; 	We're not in this business for a retainer, we don't believe in them. In fact, we only work on projects. So for once, you can get an objective opinion on marketing without worrying about who's trying to get to your wallet.</p><br />
+											
+											<p class="less-room"
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-											>  We are good people who do what we love for good people who need what we do.  We work hard for every dollar we earn.  You will feel value and walk away knowing your return-on-investment.				</p>
+												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1100, "delay": 150, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
+												<span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; We are good people who do what we love for good people who need what we do.  We work hard for every dollar we earn.  You will feel value and walk away knowing your return-on-investment.</p>
+											
+									
+											
+											
+											<p class="less-room"><!--And here's some more info about how we do <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">content, branding, campaigns</a>, or <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">strategy</a>.  <br />-->
 											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
-												<span>
-													<span class="btn-txt">Sounds good</span>
+												<span style="display: block !important;">
+													<span style="display:flex block !important;" class="btn-txt">Schedule a Call<i class="fas fa-arrow-circle-right"></i></span>
+													<!--	<span class="btn-txt">Learn About Our Process<i class="fas fa-arrow-circle-right"></i></span><br />
+														<span class="btn-txt">Learn Where We Come From<i class="fas fa-arrow-circle-right"></i></span><br />-->
+														</span><div><span style="display: block !important;" >	<span style="display: block !important;" class="btn-txt">Read Our Blog<i class="fas fa-arrow-circle-right"></i></span></div>
 												</span>
-											</a>
-										</div><!-- /.lqd-promo-content -->
-								
-									</div><!-- /.lqd-promo-inner -->
-								</div><!-- /.lqd-promo-wrap -->
-
-							</div><!-- /.col-md-8 col-md-offset-2 -->
-
-						</div><!-- /.row -->
-					</div><!-- /.container -->
-
-				</section>
-				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
-
-				{{> particles }}
-
-					<div class="container">
-						<div class="row">
-
-							<div class="lqd-column col-lg-10 col-md-offset-2">
-
-								<div class="lqd-promo-wrap text-white">
-									<div class="lqd-promo-inner">
-								
-										{{> dynamic-shape}}
-										{{> promo-message}}
-
-								
-										<div class="lqd-promo-img">
-											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "lr", "bgcolor": "#0a0102", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
-		<picture>
-  <source srcset="{{asset "img/cthulu.webp"}}" type="image/webp">
-  <img class="img-fluid metalpurple" src="{{asset "img/cthulu.png"}}" alt="OAKwave marketing strategy">
-</picture>	
-											</div><!-- /.lqd-promo-img-inner -->
-										</div><!-- /.lqd-promo-img -->
-								
-										<div class="lqd-promo-content"
-											data-custom-animations="true"
-											data-ca-options='{ "triggerHandler": "inview", "animationTarget": ".btn", "duration": 800, "startDelay": 1300, "initValues": { "translateY": 70, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-										>
-											<h2
-												class="text-white"
-												data-split-text="true"
-												data-split-options='{ "type": "chars, words" }'
-												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>Fact #5:</h2>
-											<p
-												data-split-text="true"
-												data-split-options='{ "type": "lines" }'
-												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
-												We're not in this business for a retainer, we don't believe in them. In fact, we only work on projects. So for once, you can get an objective opinion on marketing without worrying about who's trying to get to your wallet.
-				</p>								<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
-												<span>
-													<span class="btn-txt">Learn More</span>
-												</span>
-											</a>
+											</a></p>
 										</div><!-- /.lqd-promo-content -->
 								
 									</div><!-- /.lqd-promo-inner -->
@@ -588,10 +423,10 @@
 
 		</div><!-- /#wrap -->
 
-		<script src="./assets/vendors/jquery.min.js"></script>
-		<script src="./assets/js/theme-vendors.js"></script>
-		<script src="./assets/vendors/pagePiling/dist/jquery.pagepiling.min.js"></script>
-		<script src="./assets/js/theme.min.js"></script>
+		<script src="{{asset "vendors/jquery.min.js"}}"></script>
+		<script src="{{asset "js/theme-vendors.js"}}"></script>
+		<script src="{{asset "vendors/pagePiling/dist/jquery.pagepiling.min.js"}}"></script>
+		<script src="{{asset "js/theme.min.js"}}"></script>
 
 {{>hubspot}}
     {{!-- Ghost outputs important scripts & data with the {ghost_foot} tag

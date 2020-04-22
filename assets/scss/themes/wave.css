@@ -1,5 +1,10 @@
-img.bob {
-  padding-left: 60px;
+img.bob.img-fluid {
+  width: 60%;
+}
+
+img.img-fluid.float-left.bob {
+  padding-right: 60px;
+  max-width: 300px !important;
 }
 
 img.ducky {
@@ -20,11 +25,23 @@ img.ducky {
 }
 
 .purplish {
-  color: #7254c9;
+  color: #7254c9 !important;
 }
 
 .font-smallish {
   font-size: 3.5rem !important;
+}
+
+.leftforul {
+  -webkit-padding-start: 0px !important;
+          padding-inline-start: 0px !important;
+  padding-left: 0px !important;
+  margin-left: -100px !important;
+}
+
+.less-room {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .muted-purplish {

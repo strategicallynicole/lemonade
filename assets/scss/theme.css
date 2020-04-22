@@ -4,7 +4,7 @@
  * Version:			1.6
 */
 /*----------------------------------------
- [ TABLE OF CONTENTS ]
+ [ TABLE OF CONTENTS ] 
 
  1. BASE
 		|- 1.1. Base
@@ -99,7 +99,7 @@
 
  ----------------------------------------
 
- [ TYPOGRAPHY ]
+
 
  $font-primary:		'Glacial Indifferenc', 'Open Sans', sans-serif;
  $font-size: 			16px;
@@ -126,22 +126,6 @@
   --color-img-holder: #272b2c;
 }
 
-@font-face {
-  font-family: 'Glacial Indifference';
-  src: url("../fonts/GlacialIndifference-Regular.woff2") format("woff2"), url("../fonts/GlacialIndifference-Regular.woff") format("woff");
-  font-weight: normal;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Glacial Indifference';
-  src: url("../fonts/GlacialIndifference-Bold.woff2") format("woff2"), url("../fonts/GlacialIndifference-Bold.woff") format("woff");
-  font-weight: bold;
-  font-display: swap;
-  font-style: normal;
-}
-
 html,
 body {
   max-width: 100vw;
@@ -153,11 +137,11 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1em;
   line-height: 1.7;
   font-weight: 400;
-  color: var(--color-font);
+  color: #b2b2b2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -176,7 +160,8 @@ body {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-  background-color: #fff;
+  background-color: #272B2C !important;
+  color: #b2b2b2 !important;
 }
 
 #content:before, #content:after {
@@ -209,6 +194,7 @@ body.blog #content {
 
 body.blog .main-sidebar {
   margin-top: 0 !important;
+  background-color: #272B2C;
 }
 
 a {
@@ -385,6 +371,7 @@ figcaption {
 	Typography
 */
 p {
+  font-family: 'Noto Sans', sans-serif !important;
   margin-bottom: 1.3em;
 }
 
@@ -394,11 +381,10 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fjalla One', sans-serif !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
   margin: 1.25em 0 0.75em;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #181b31;
 }
 
 h1, .h1 {
@@ -1452,7 +1438,6 @@ small,
 .nav-trigger.scheme-light {
   color: #fff;
 }
-
 
 .nav-trigger.scheme-light .bar {
   background-color: #fff;
@@ -19034,8 +19019,8 @@ ul.pagination .page-numbers.current {
 }
 
 .ld-pb-icon-wrap {
-  background-color: #8b9699;
-  color: #272b2c;
+  background-color: #8d9095;
+  color: #27282a;
   font-size: 90px;
   line-height: 1;
 }
@@ -26532,11 +26517,11 @@ MOBULE HEADER
 }
 
 .bg-primary {
-  background: var(--color-primary) !important;
+  background: #27282a !important;
 }
 
 .bg-secondary {
-  background: var(--color-secondary) !important;
+  background: #141622 !important;
 }
 
 .bg-transparent {
@@ -26544,27 +26529,27 @@ MOBULE HEADER
 }
 
 .bg-white {
-  background: #fff !important;
+  background: #27282a !important;
 }
 
 .bg-black {
-  background: #000 !important;
+  background: #27282a !important;
 }
 
 .bg-gray {
-  background: #f4f5f8 !important;
+  background: #141622 !important;
 }
 
 .bg-gray-2 {
-  background: #fafafa !important;
+  background: #141622 !important;
 }
 
 .bg-gray-3 {
-  background: #f1f1f1 !important;
+  background: #141622 !important;
 }
 
 .bg-light {
-  background: #f7f8fb !important;
+  background: #141622 !important;
 }
 
 .bg-dark {
@@ -26572,7 +26557,7 @@ MOBULE HEADER
 }
 
 .bg-mirage {
-  background: #181b31 !important;
+  background: #141622 !important;
 }
 
 .bg-vulcan {
@@ -26580,7 +26565,7 @@ MOBULE HEADER
 }
 
 .bg-charade {
-  background: #2D323D !important;
+  background: #212121 !important;
 }
 
 .bg-tundora {
@@ -26596,171 +26581,171 @@ MOBULE HEADER
 }
 
 .bg-athens-gray {
-  background: #F8F9FA !important;
+  background: #27282a !important;
 }
 
 .bg-ebony-clay {
-  background: #252c42 !important;
+  background: #27282a !important;
 }
 
 .bg-link-water {
-  background: #DCE9F6 !important;
+  background: #27282a !important;
 }
 
 .bg-swans-down {
-  background: #dbf1f1 !important;
+  background: #27282a !important;
 }
 
 .bg-old-lace {
-  background: #fcece1 !important;
+  background: #27282a !important;
 }
 
 .bg-woodsmoke {
-  background: #0e0f14 !important;
+  background: #27282a !important;
 }
 
 .bg-cape-cod {
-  background: #343535 !important;
+  background: #27282a !important;
 }
 
 .bg-zircon {
-  background: #f8faff !important;
+  background: #27282a !important;
 }
 
 .bg-fade-dark-005 {
-  background-color: rgba(0, 0, 0, 0.05) !important;
+  background-color: rgba(39, 40, 42, 0.05) !important;
 }
 
 .bg-fade-white-005 {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(39, 40, 42, 0.05) !important;
 }
 
 .bg-fade-dark-01 {
-  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(39, 40, 42, 0.1) !important;
 }
 
 .bg-fade-white-01 {
-  background-color: rgba(255, 255, 255, 0.1) !important;
+  background-color: rgba(39, 40, 42, 0.1) !important;
 }
 
 .bg-fade-dark-015 {
-  background-color: rgba(0, 0, 0, 0.15) !important;
+  background-color: rgba(39, 40, 42, 0.15) !important;
 }
 
 .bg-fade-white-015 {
-  background-color: rgba(255, 255, 255, 0.15) !important;
+  background-color: rgba(39, 40, 42, 0.15) !important;
 }
 
 .bg-fade-dark-02 {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(39, 40, 42, 0.2) !important;
 }
 
 .bg-fade-white-02 {
-  background-color: rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(39, 40, 42, 0.2) !important;
 }
 
 .bg-fade-dark-025 {
-  background-color: rgba(0, 0, 0, 0.25) !important;
+  background-color: rgba(39, 40, 42, 0.25) !important;
 }
 
 .bg-fade-white-025 {
-  background-color: rgba(255, 255, 255, 0.25) !important;
+  background-color: rgba(39, 40, 42, 0.25) !important;
 }
 
 .bg-fade-dark-03 {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: rgba(39, 40, 42, 0.3) !important;
 }
 
 .bg-fade-white-03 {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: rgba(39, 40, 42, 0.3) !important;
 }
 
 .bg-fade-dark-035 {
-  background-color: rgba(0, 0, 0, 0.35) !important;
+  background-color: rgba(39, 40, 42, 0.35) !important;
 }
 
 .bg-fade-white-035 {
-  background-color: rgba(255, 255, 255, 0.35) !important;
+  background-color: rgba(39, 40, 42, 0.35) !important;
 }
 
 .bg-fade-dark-04 {
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: rgba(39, 40, 42, 0.4) !important;
 }
 
 .bg-fade-white-04 {
-  background-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(39, 40, 42, 0.4) !important;
 }
 
 .bg-fade-dark-045 {
-  background-color: rgba(0, 0, 0, 0.45) !important;
+  background-color: rgba(39, 40, 42, 0.45) !important;
 }
 
 .bg-fade-white-045 {
-  background-color: rgba(255, 255, 255, 0.45) !important;
+  background-color: rgba(39, 40, 42, 0.45) !important;
 }
 
 .bg-fade-dark-05 {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(39, 40, 42, 0.5) !important;
 }
 
 .bg-fade-white-05 {
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgba(39, 40, 42, 0.5) !important;
 }
 
 .bg-fade-dark-055 {
-  background-color: rgba(0, 0, 0, 0.55) !important;
+  background-color: rgba(39, 40, 42, 0.55) !important;
 }
 
 .bg-fade-white-055 {
-  background-color: rgba(255, 255, 255, 0.55) !important;
+  background-color: rgba(39, 40, 42, 0.55) !important;
 }
 
 .bg-fade-dark-06 {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(39, 40, 42, 0.6) !important;
 }
 
 .bg-fade-white-06 {
-  background-color: rgba(255, 255, 255, 0.6) !important;
+  background-color: rgba(39, 40, 42, 0.6) !important;
 }
 
 .bg-fade-dark-065 {
-  background-color: rgba(0, 0, 0, 0.65) !important;
+  background-color: rgba(39, 40, 42, 0.65) !important;
 }
 
 .bg-fade-white-065 {
-  background-color: rgba(255, 255, 255, 0.65) !important;
+  background-color: rgba(39, 40, 42, 0.65) !important;
 }
 
 .bg-fade-dark-07 {
-  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(39, 40, 42, 0.7) !important;
 }
 
 .bg-fade-white-07 {
-  background-color: rgba(255, 255, 255, 0.7) !important;
+  background-color: rgba(39, 40, 42, 0.7) !important;
 }
 
 .bg-fade-dark-075 {
-  background-color: rgba(0, 0, 0, 0.75) !important;
+  background-color: rgba(39, 40, 42, 0.75) !important;
 }
 
 .bg-fade-white-075 {
-  background-color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(39, 40, 42, 0.75) !important;
 }
 
 .bg-fade-dark-08 {
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: rgba(39, 40, 42, 0.8) !important;
 }
 
 .bg-fade-white-08 {
-  background-color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(39, 40, 42, 0.8) !important;
 }
 
 .bg-fade-dark-085 {
-  background-color: rgba(0, 0, 0, 0.85) !important;
+  background-color: rgba(39, 40, 42, 0.85) !important;
 }
 
 .bg-fade-white-085 {
-  background-color: rgba(255, 255, 255, 0.85) !important;
+  background-color: rgba(39, 40, 42, 0.85) !important;
 }
 
 .bg-hover-secondary:hover {
@@ -30864,5 +30849,22 @@ MOBULE HEADER
   .page-has-frame .megamenu.megamenu-fullwidth .megamenu-container {
     width: calc( 100vw - 40px) !important;
   }
+}
+
+body {
+  background-color: #27282a !important;
+}
+
+.content {
+  color: #efefef !important;
+  background-color: #27282a !important;
+}
+
+.wpb_widgetised_column a, .main-sidebar a {
+  color: #efefef !important;
+}
+
+.bob {
+  width: 500px;
 }
 /*# sourceMappingURL=theme.css.map */

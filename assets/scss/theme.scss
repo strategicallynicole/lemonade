@@ -103,7 +103,7 @@
 
  ----------------------------------------
 
- [ TYPOGRAPHY ]
+
 
  $font-primary:		'Glacial Indifferenc', 'Open Sans', sans-serif;
  $font-size: 			16px;
@@ -129,6 +129,17 @@
 @import 'base/sticky-elements';
 @import 'base/section-borders';
 @import 'base/pin-elements';
+
+
+$font-primary:		'Noto Sans', 'noto-sans', 'Open Sans', sans-serif;
+$font-size: 			16px;
+$line-height: 		30px;
+$font-color: 		#f2f2f2;
+
+$color-primary: #27282a;
+$color-secondary: #7254c9;
+$bg-color: #27282a;
+
 
 /* 1.2. Header */
 @import 'header/header';
@@ -319,4 +330,17 @@
 @import 'utils/utils';
 @import './theme-responsive';
 
+body {
+	background-color: #27282a !important;
+}
+.content {
+		color: #efefef !important;
+		background-color: #27282a !important;
+}
 
+.wpb_widgetised_column a, .main-sidebar a {
+	color: #efefef !important;
+}
+.bob {
+	width: 500px;
+}
