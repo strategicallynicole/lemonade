@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 :root {
   --color-primary: #fa7c31;
   --color-gradient-start: #fe9418;
   --color-gradient-stop: #f5634b;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -12,6 +14,7 @@ body {
   color: #919191;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,6 +26,7 @@ body {
   color: #000;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .h1,
 h1 {
   font-size: 42px;
@@ -30,36 +34,42 @@ h1 {
   font-weight: 700;
 }
 
+/* line 33, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .h2,
 h2 {
   font-size: 34px;
   line-height: 1.4em;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .h3,
 h3 {
   font-size: 24px;
   line-height: 1.6em;
 }
 
+/* line 45, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .h4,
 h4 {
   font-size: 21px;
   line-height: 1.6em;
 }
 
+/* line 51, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .h5,
 h5 {
   font-size: 18px;
   line-height: 1.8em;
 }
 
+/* line 57, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .h6,
 h6 {
   font-size: 16px;
   line-height: 1.8em;
 }
 
+/* line 66, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-nav > li > a {
   font-size: 13px;
   font-weight: 600;
@@ -68,6 +78,7 @@ h6 {
   color: #fff;
 }
 
+/* line 74, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -75,40 +86,51 @@ h6 {
   color: rgba(255, 255, 255, 0.85);
 }
 
+/* line 84, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-header .btn-naked {
   color: #fff;
 }
 
+/* line 87, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-header .btn-naked:hover {
   color: #f5634b;
 }
 
+/* line 91, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-header .btn-bordered {
   color: #f5634b;
 }
 
+/* line 94, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-header .btn-bordered:hover {
   color: #fff;
 }
 
+/* line 101, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-header.megamenu-scheme-light .btn-naked {
   color: #3d3d3d;
 }
 
+/* line 104, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-header.megamenu-scheme-light .btn-bordered {
   color: #3d3d3d;
   border-color: #3d3d3d;
 }
 
+/* line 111, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-footer {
   background: #181a23;
   color: #828593;
 }
 
+/* line 115, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-footer a:not(.btn) {
   color: #828593;
 }
 
+/* line 118, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/gym.scss */
 .main-footer a:not(.btn):hover {
   color: #fa7c31;
 }
+
+/*# sourceMappingURL=gym.css.map */

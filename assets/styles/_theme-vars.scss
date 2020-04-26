@@ -18,17 +18,14 @@ $bg-vulcan2: #3b3b3b;
     color: $soft-purple !important; 
     --fa-primary-color: $soft-purple !important;
     --fa-secondary-opacity: 0.5;
-}
+} 
 .purplish {
  color: #7D5BA6;   
 }
 h3.widget-title {
     color: $black !important;
 }
-article.liquid-lp.liquid-blog-item.liquid-blog-item-grid.liquid-blog-scheme-dark.mb-50 {
-    background: #fefefe;
-    padding: 20px;
-}
+
 :root {
     --color-primary: $color-primary;
     --color-secondary: darken($color-primary, 25%);

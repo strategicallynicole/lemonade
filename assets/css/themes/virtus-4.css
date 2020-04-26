@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 :root {
   --color-primary: #e25858;
   --color-gradient-start: #e25858;
   --color-gradient-stop: #e25858;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -12,6 +14,7 @@ body {
   color: #808291;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,42 +26,49 @@ body {
   color: #181b31;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .h1,
 h1 {
   font-size: 52px;
   line-height: 1.2em;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .h2,
 h2 {
   font-size: 40px;
   line-height: 1.2em;
 }
 
+/* line 38, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .h3,
 h3 {
   font-size: 36px;
   line-height: 1.2em;
 }
 
+/* line 44, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .h4,
 h4 {
   font-size: 30px;
   line-height: 1.333em;
 }
 
+/* line 50, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .h5,
 h5 {
   font-size: 21px;
   line-height: 1.2em;
 }
 
+/* line 56, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .h6,
 h6 {
   font-size: 18px;
   line-height: 1.2em;
 }
 
+/* line 66, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .main-nav > li > a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -69,10 +79,12 @@ h6 {
   text-transform: uppercase;
 }
 
+/* line 75, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .main-nav > li > a .link-ext {
   background: var(--color-primary);
 }
 
+/* line 79, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -80,6 +92,7 @@ h6 {
   color: var(--color-primary);
 }
 
+/* line 89, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .contact-form input,
 .contact-form select,
 .contact-form textarea,
@@ -89,6 +102,7 @@ h6 {
   color: #fff;
 }
 
+/* line 97, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -96,16 +110,21 @@ h6 {
   color: #fff;
 }
 
+/* line 102, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .main-footer {
   background-color: #30333a;
   color: #92959b;
   padding-top: 80px;
 }
 
+/* line 107, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .main-footer a:not(.btn) {
   color: inherit;
 }
 
+/* line 110, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-4.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
+
+/*# sourceMappingURL=virtus-4.css.map */

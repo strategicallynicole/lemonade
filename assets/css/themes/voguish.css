@@ -5,12 +5,14 @@
   font-style: normal;
 }
 
+/* line 9, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 :root {
   --color-primary: #e7a285;
   --color-gradient-start: #e7a285;
   --color-gradient-stop: #e7a285;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 body {
   font-family: 'Basier Square', sans-serif;
   font-weight: 400;
@@ -19,6 +21,7 @@ body {
   color: #5b6674;
 }
 
+/* line 23, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -30,41 +33,49 @@ body {
   color: #443227;
 }
 
+/* line 33, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .h1, h1 {
   line-height: 1.2em;
   font-size: 52px;
 }
 
+/* line 38, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .h2, h2 {
   line-height: 1.083em;
   font-size: 48px;
 }
 
+/* line 43, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .h3, h3 {
   line-height: 1.2em;
   font-size: 32px;
 }
 
+/* line 48, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .h4, h4 {
   line-height: 1.2em;
   font-size: 25px;
 }
 
+/* line 53, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .h5, h5 {
   line-height: 1.2em;
   font-size: 21px;
 }
 
+/* line 58, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .h6, h6 {
   line-height: 1.2em;
   font-size: 18px;
 }
 
+/* line 63, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-nav,
 .btn {
   font-family: 'futura-pt', sans-serif;
 }
 
+/* line 70, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-nav > li > a {
   font-size: 13px;
   letter-spacing: 0.2em;
@@ -72,14 +83,17 @@ body {
   text-transform: uppercase;
 }
 
+/* line 76, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-nav > li > a .link-ext {
   background-color: #fff;
 }
 
+/* line 79, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-nav > li > a:hover {
   color: #ffe7d1;
 }
 
+/* line 83, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -87,41 +101,52 @@ body {
   color: #fff;
 }
 
+/* line 92, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 95, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-footer a:not(.btn) {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 98, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
+/* line 104, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-footer .ld-sf input {
   background: rgba(255, 255, 255, 0.05);
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 108, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-footer .ld-sf input:focus {
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* line 112, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
 .main-footer .ld-sf button {
   font-size: 23px;
 }
 
 @media (min-width: 1200px) {
+  /* line 120, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
   .main-header .is-stuck {
     background: #fff !important;
   }
+  /* line 123, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .main-nav > li > a {
     color: #000 !important;
   }
+  /* line 127, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/voguish.scss */
   .mainbar-wrap.is-stuck .social-icon a:hover,
   .mainbar-wrap.is-stuck .main-nav > li > a:hover {
     color: var(--color-primary) !important;
   }
 }
+
+/*# sourceMappingURL=voguish.css.map */

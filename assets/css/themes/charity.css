@@ -16,12 +16,14 @@
   font-display: swap;
 }
 
+/* line 34, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 :root {
   --color-primary: #fdac2b;
   --color-gradient-start: #fdac2b;
   --color-gradient-stop: #fdac2b;
 }
 
+/* line 40, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 body {
   font-family: 'gotham pro regular', sans-serif;
   font-size: 14px;
@@ -29,6 +31,7 @@ body {
   color: #666;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -39,11 +42,13 @@ body {
   line-height: 1.2em;
 }
 
+/* line 57, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h1, h1,
 .h2, h2 {
   color: #24140d;
 }
 
+/* line 62, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h3, h3,
 .h4, h4,
 .h5, h5 {
@@ -51,38 +56,46 @@ body {
   color: #181b31;
 }
 
+/* line 69, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h1, h1 {
   font-family: 'gotham pro bold', sans-serif;
   font-size: 45px;
 }
 
+/* line 74, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h2, h2 {
   font-size: 36px;
   line-height: 1.32em;
 }
 
+/* line 79, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h3, h3 {
   font-size: 29px;
 }
 
+/* line 83, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h4, h4 {
   font-size: 25px;
 }
 
+/* line 87, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h5, h5 {
   font-size: 21px;
 }
 
+/* line 91, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .h6, h6 {
   font-size: 16px;
   color: #fdac2b;
 }
 
+/* line 96, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .mainbar-wrap {
   padding-left: 35px;
   padding-right: 35px;
 }
 
+/* line 105, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .main-nav > li > a {
   font-size: 15px;
   line-height: 1.5em;
@@ -90,6 +103,7 @@ body {
   color: #fff;
 }
 
+/* line 111, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -97,55 +111,68 @@ body {
   color: #fff;
 }
 
+/* line 122, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .header-module .btn {
   color: #fff;
   border-color: #fff;
 }
 
+/* line 126, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .header-module .btn:hover {
   background-color: #fff;
   color: #000;
 }
 
+/* line 133, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .btn-solid {
   background-color: #fdac2b;
   border-color: #fdac2b;
   color: #000;
 }
 
+/* line 138, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .btn-solid:hover {
   background-color: #fff;
   color: #000;
 }
 
+/* line 146, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .countdown .countdown-period {
   font-size: 14px;
 }
 
+/* line 151, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .main-footer {
   padding-top: 140px;
   color: #a1a3ab;
 }
 
+/* line 155, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .main-footer a:not(.btn) {
   color: rgba(240, 240, 240, 0.7);
 }
 
+/* line 158, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
+/* line 164, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .main-footer .social-icon a {
   color: #fff;
 }
 
+/* line 168, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
 .main-footer .widget-title {
   color: #ffe8bf;
 }
 
 @media (min-width: 992px) {
+  /* line 177, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/charity.scss */
   .main-footer section {
     padding-left: 7%;
     padding-right: 7%;
   }
 }
+
+/*# sourceMappingURL=charity.css.map */

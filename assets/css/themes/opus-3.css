@@ -1,3 +1,4 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 :root {
   --color-primary: #27ae60;
   --color-secondary: #4869e8;
@@ -5,6 +6,7 @@
   --color-gradient-stop: #27ae60;
 }
 
+/* line 8, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -13,6 +15,7 @@ body {
   color: #838689;
 }
 
+/* line 16, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,6 +26,7 @@ body {
   color: #000;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .h1,
 h1 {
   font-size: 45px;
@@ -30,6 +34,7 @@ h1 {
   font-weight: 300;
 }
 
+/* line 33, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .h2,
 h2 {
   font-size: 40px;
@@ -37,6 +42,7 @@ h2 {
   font-weight: 300;
 }
 
+/* line 40, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .h3,
 h3 {
   font-size: 35px;
@@ -44,6 +50,7 @@ h3 {
   font-weight: 400;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .h4,
 h4 {
   font-size: 30px;
@@ -51,6 +58,7 @@ h4 {
   font-weight: 400;
 }
 
+/* line 54, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .h5,
 h5 {
   font-size: 25px;
@@ -58,6 +66,7 @@ h5 {
   font-weight: 400;
 }
 
+/* line 61, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .h6,
 h6 {
   font-size: 21px;
@@ -65,31 +74,41 @@ h6 {
   font-weight: 400;
 }
 
+/* line 68, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .main-header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* line 72, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .navbar-brand {
   padding: 30px 100px;
 }
 
+/* line 80, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .main-nav > li > a {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
 }
-.main-nav > li.is-active > a, .main-nav > li:hover > a,
+
+/* line 85, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
+.main-nav > li.is-active > a,
+.main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: #fff;
 }
 
+/* line 97, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .header-module .social-icon a {
   opacity: 0.7;
 }
+
+/* line 100, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .header-module .social-icon a:hover {
   opacity: 1;
 }
 
+/* line 109, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .contact-form input,
 .contact-form select,
 .contact-form textarea,
@@ -101,18 +120,26 @@ h6 {
   border-color: #f7f9fb;
 }
 
+/* line 121, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .testi-avatars .carousel-item:not(.is-selected) {
   opacity: 0.3;
 }
 
+/* line 125, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .main-footer {
   background-color: #343535;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* line 130, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .main-footer a:not(.btn) {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* line 133, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-3.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
+
+/*# sourceMappingURL=opus-3.css.map */

@@ -1,3 +1,4 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 :root {
   --color-primary: #ffb09f;
   --color-secondary: #34dbc5;
@@ -7,6 +8,7 @@
   --color-gradient-stop-secondary: #34dbc5;
 }
 
+/* line 10, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 body {
   font-family: 'Glacial Indifference', sans-serif;
   line-height: 1.5em;
@@ -14,6 +16,7 @@ body {
   color: #808291;
 }
 
+/* line 17, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -24,36 +27,42 @@ body {
   color: #0a0a0a;
 }
 
+/* line 27, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .h1, h1 {
   font-weight: 400;
   line-height: 1.2em;
   font-size: 53px;
 }
 
+/* line 33, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .h2, h2 {
   font-weight: 400;
   line-height: 1.2em;
   font-size: 48px;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .h3, h3 {
   font-weight: 400;
   line-height: 1.5;
   font-size: 30px;
 }
 
+/* line 45, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .h4, h4 {
   font-weight: 400;
   line-height: 1.5;
   font-size: 24px;
 }
 
+/* line 51, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .h5, h5 {
   font-weight: 400;
   line-height: 1.7;
   font-size: 21px;
 }
 
+/* line 57, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .h6, h6 {
   font-weight: 400;
   line-height: 1.5;
@@ -61,6 +70,7 @@ body {
   color: #a7a9b8;
 }
 
+/* line 66, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .main-nav > li > a {
   font-size: 13px;
   font-weight: 400;
@@ -69,6 +79,9 @@ body {
   text-transform: uppercase;
 }
 
+/* line 75, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-creative.scss */
 .btn-bordered {
   color: #ffb09f;
 }
+
+/*# sourceMappingURL=digital-creative.css.map */

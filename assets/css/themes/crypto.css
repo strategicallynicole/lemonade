@@ -5,12 +5,14 @@
   font-style: normal;
 }
 
+/* line 9, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 :root {
   --color-primary: #8300ff;
   --color-gradient-start: #8300ff;
   --color-gradient-stop: #1de1d1;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 body {
   font-family: 'Basier Square', sans-serif;
   font-weight: 400;
@@ -19,6 +21,7 @@ body {
   color: #6a7c92;
 }
 
+/* line 23, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -29,6 +32,7 @@ body {
   color: #1e1666;
 }
 
+/* line 33, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .h1,
 h1 {
   font-size: 55px;
@@ -36,6 +40,7 @@ h1 {
   font-weight: 700;
 }
 
+/* line 40, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .h2,
 h2 {
   font-size: 45px;
@@ -43,6 +48,7 @@ h2 {
   font-weight: 700;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .h3,
 h3 {
   color: #1e1666;
@@ -50,6 +56,7 @@ h3 {
   font-size: 37px;
 }
 
+/* line 54, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .h4,
 h4 {
   font-size: 26px;
@@ -57,6 +64,7 @@ h4 {
   font-weight: 700;
 }
 
+/* line 61, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .h5,
 h5 {
   color: #1e1666;
@@ -64,6 +72,7 @@ h5 {
   font-size: 21px;
 }
 
+/* line 68, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .h6,
 h6 {
   font-size: 18px;
@@ -71,25 +80,31 @@ h6 {
   font-weight: 700;
 }
 
+/* line 75, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .main-footer {
   color: #8589a3;
 }
 
+/* line 78, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .main-footer a:not(.btn) {
   color: #8589a3;
 }
 
+/* line 81, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
 .main-footer a:not(.btn):hover {
   color: #3d356e;
 }
 
 @media (min-width: 1200px) {
+  /* line 91, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
   .main-nav > li > a {
     color: #fff;
   }
+  /* line 94, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
   .main-nav > li > a .link-ext {
     background-color: #fff;
   }
+  /* line 98, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/crypto.scss */
   .main-nav > li.is-active > a,
   .main-nav > li.current-menu-item > a,
   .main-nav > li:hover > a,
@@ -97,3 +112,5 @@ h6 {
     color: rgba(255, 255, 255, 0.8);
   }
 }
+
+/*# sourceMappingURL=crypto.css.map */

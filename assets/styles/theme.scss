@@ -1,16 +1,23 @@
 @import 'mixins/mixins';
 @import 'variables';
-.three-dee {
+article.liquid-lp.liquid-blog-item.liquid-blog-item-grid.liquid-blog-scheme-dark.mb-50 {
+	background: url('../img/box.svg');
+	background-size: cover;
+	background-position: center;
+    padding: 20px;
+    background-color: #DCDCDC;
+} 
 
+  
+.three-dee {
     position: absolute;
     top: 50%; 
     right: 50%;
     transform: translate(50%,-50%);
     text-transform: uppercase;
-    font-family: verdana;
     font-size: 12em;
     font-weight: 700;
-    color: #f5f5f5;
+    color: #f5f5f5; 
     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
         1px 3px 1px #919191,

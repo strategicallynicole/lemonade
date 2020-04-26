@@ -1,3 +1,4 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 :root {
   --color-primary: #f13c46;
   --color-secondary: #7254c9;
@@ -5,6 +6,7 @@
   --color-gradient-stop: #e4442a;
 }
 
+/* line 8, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -13,6 +15,7 @@ body {
   color: #808291;
 }
 
+/* line 16, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -24,42 +27,50 @@ body {
   color: #181b31;
 }
 
+/* line 27, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .h1, h1 {
   line-height: 1.2em;
   font-size: 52px;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .h2, h2 {
   line-height: 1.2em;
   font-size: 40px;
 }
 
+/* line 37, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .h3, h3 {
   line-height: 1.2em;
   font-size: 32px;
 }
 
+/* line 42, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .h4, h4 {
   line-height: 1.2em;
   font-size: 25px;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .h5, h5 {
   line-height: 1.2em;
   font-size: 21px;
 }
 
+/* line 52, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .h6, h6 {
   line-height: 1.2em;
   font-size: 18px;
 }
 
+/* line 57, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
 .main-nav > li > a {
   font-size: 18px;
   line-height: 1.5em;
 }
 
 @media (min-width: 1200px) {
+  /* line 66, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
   .main-nav > li > a {
     font-size: 36px;
     line-height: 1.5em;
@@ -68,16 +79,21 @@ body {
     color: #ebebeb;
     text-transform: uppercase;
   }
+  /* line 74, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
   .main-nav > li > a .link-ext {
     background: #fff;
   }
+  /* line 78, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
   .main-nav > li.is-active > a,
   .main-nav > li.current-menu-item > a,
   .main-nav > li:hover > a,
   .main-nav > li > a:hover {
     color: #fff;
   }
+  /* line 85, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/wave.scss */
   .header-fullscreen .navbar-fullscreen {
     background: rgba(0, 0, 0, 0.95);
   }
 }
+
+/*# sourceMappingURL=wave.css.map */

@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 :root {
   --color-primary: #56b954;
   --color-gradient-start: #56b954;
   --color-gradient-stop: #56b954;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -12,6 +14,7 @@ body {
   color: #808291;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,42 +26,49 @@ body {
   color: #181b31;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .h1,
 h1 {
   font-size: 55px;
   line-height: 1.111em;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .h2,
 h2 {
   font-size: 36px;
   line-height: 1.25em;
 }
 
+/* line 38, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .h3,
 h3 {
   font-size: 30px;
   line-height: 1.25em;
 }
 
+/* line 44, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .h4,
 h4 {
   font-size: 22px;
   line-height: 1.5em;
 }
 
+/* line 50, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .h5,
 h5 {
   font-size: 19px;
   line-height: 1.5em;
 }
 
+/* line 56, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .h6,
 h6 {
   font-size: 17px;
   line-height: 1.5em;
 }
 
+/* line 66, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .main-nav > li > a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -69,10 +79,12 @@ h6 {
   text-transform: uppercase;
 }
 
+/* line 75, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .main-nav > li > a .link-ext {
   background: #50b54e;
 }
 
+/* line 79, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -81,16 +93,21 @@ h6 {
 }
 
 @media (min-width: 1200px) {
+  /* line 90, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
   .main-header .is-stuck {
     background: #fff !important;
   }
+  /* line 94, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
   .mainbar-wrap.is-stuck .main-nav > li > a,
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
     color: #424242 !important;
   }
+  /* line 101, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-3.scss */
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
     border-color: #424242 !important;
   }
 }
+
+/*# sourceMappingURL=virtus-3.css.map */

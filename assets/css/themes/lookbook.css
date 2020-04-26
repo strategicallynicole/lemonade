@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 :root {
   --color-primary:#f13c46;
   --color-gradient-start:#f42958;
   --color-gradient-stop:#e4442a;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -12,6 +14,7 @@ body {
   color: #808291;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -24,30 +27,37 @@ body {
   color: #181b31;
 }
 
+/* line 27, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .h1, h1 {
   font-size: 48px;
 }
 
+/* line 31, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .h2, h2 {
   font-size: 40px;
 }
 
+/* line 35, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .h3, h3 {
   font-size: 32px;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .h4, h4 {
   font-size: 25px;
 }
 
+/* line 43, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .h5, h5 {
   font-size: 21px;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .h6, h6 {
   font-size: 18px;
 }
 
+/* line 53, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .main-nav > li > a {
   font-size: 30px;
   font-weight: 700;
@@ -55,9 +65,12 @@ body {
   color: #65676d;
 }
 
+/* line 59, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/lookbook.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: #000;
 }
+
+/*# sourceMappingURL=lookbook.css.map */

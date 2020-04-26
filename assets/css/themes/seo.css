@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 :root {
   --color-primary: #fd5c4c;
   --color-gradient-start: #fe506c;
   --color-gradient-stop: #fc6a2a;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 body {
   font-family: 'europa', sans-serif;
   font-size: 1em;
@@ -12,6 +14,7 @@ body {
   color: #808291;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,24 +26,28 @@ body {
   color: #000;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .h1,
 h1 {
   font-size: 60px;
   line-height: 1.2em;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .h2,
 h2 {
   font-size: 28px;
   line-height: 1.2em;
 }
 
+/* line 38, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .h3,
 h3 {
   font-size: 24px;
   line-height: 1.2em;
 }
 
+/* line 44, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .h4,
 h4 {
   font-family: 'Libre Baskerville', serif;
@@ -49,6 +56,7 @@ h4 {
   font-weight: 400;
 }
 
+/* line 52, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .h5,
 h5 {
   font-size: 18px;
@@ -56,6 +64,7 @@ h5 {
   font-weight: 300;
 }
 
+/* line 59, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .h6,
 h6 {
   font-size: 16px;
@@ -64,6 +73,7 @@ h6 {
   color: var(--color-primary);
 }
 
+/* line 72, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .main-nav > li > a {
   font-size: 16px;
   text-transform: uppercase;
@@ -71,6 +81,7 @@ h6 {
   color: #000;
 }
 
+/* line 79, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -78,60 +89,73 @@ h6 {
   color: var(--color-primary);
 }
 
+/* line 92, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .main-header .header-module p {
   font-size: 16px;
   letter-spacing: 0.025em;
   color: #000;
 }
 
+/* line 97, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .main-header .header-module .btn {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
 
+/* line 105, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .btn {
   font-size: 14px;
   line-height: 2em;
 }
 
+/* line 113, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .btn:hover svg stop {
   stop-color: var(--color-gradient-start);
 }
 
+/* line 118, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .btn .btn-gradient-bg-hover {
-  background: -webkit-gradient(linear, left top, right top, from(var(--color-gradient-start)), to(var(--color-gradient-start)));
   background: linear-gradient(to right, var(--color-gradient-start) 0%, var(--color-gradient-start) 100%);
 }
 
+/* line 122, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .btn-naked {
   color: #000;
 }
 
+/* line 125, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .btn-naked:hover {
   color: var(--color-primary);
 }
 
+/* line 132, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .fancy-title h2 {
   font-weight: 300;
   letter-spacing: -0.025em;
 }
 
+/* line 138, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .main-footer {
   border-top: 1px solid #e5e8ec;
   color: #808291;
 }
 
+/* line 142, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .main-footer a:not(.btn) {
   color: #808291;
 }
 
+/* line 145, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
 .main-footer a:not(.btn):hover {
   color: #000;
 }
 
 @media screen and (min-width: 768px) {
+  /* line 155, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/seo.scss */
   .fancy-title h2 {
     font-size: 60px;
   }
 }
+
+/*# sourceMappingURL=seo.css.map */

@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 :root {
   --color-primary: #27ae60;
   --color-gradient-start: #27ae60;
   --color-gradient-stop: #27ae60;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -13,6 +15,7 @@ body {
   color: #73747f;
 }
 
+/* line 16, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,6 +26,7 @@ body {
   color: #1a1c26;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .h1,
 h1 {
   font-weight: 300;
@@ -30,6 +34,7 @@ h1 {
   font-size: 45px;
 }
 
+/* line 33, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .h2,
 h2 {
   font-size: 40px;
@@ -37,6 +42,7 @@ h2 {
   line-height: 1.285em;
 }
 
+/* line 40, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .h3,
 h3 {
   font-size: 35px;
@@ -44,6 +50,7 @@ h3 {
   line-height: 1.342em;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .h4,
 h4 {
   font-size: 30px;
@@ -51,6 +58,7 @@ h4 {
   line-height: 1.35em;
 }
 
+/* line 54, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .h5,
 h5 {
   font-size: 25px;
@@ -58,6 +66,7 @@ h5 {
   line-height: 1.35em;
 }
 
+/* line 61, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .h6,
 h6 {
   font-size: 21px;
@@ -65,40 +74,48 @@ h6 {
   line-height: 1.2em;
 }
 
+/* line 68, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .navbar-brand {
   padding: 30px 30px 30px 0;
 }
 
+/* line 74, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-header .btn-underlined {
   color: #fff;
 }
 
+/* line 77, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-header .btn-underlined:after {
   background-color: currentColor;
 }
 
+/* line 81, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-header .btn-bordered {
   border-color: #fff;
   color: #fff;
 }
 
+/* line 85, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-header .btn-bordered:hover {
   border-color: #fff;
   background-color: #fff;
   color: #000;
 }
 
+/* line 94, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-header.megamenu-scheme-light .btn {
   border-color: rgba(0, 0, 0, 0.7);
   color: rgba(0, 0, 0, 0.7);
 }
 
+/* line 103, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-nav > li > a {
   font-size: 15px;
   letter-spacing: 0.02em;
   color: #fff;
 }
 
+/* line 109, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -106,51 +123,65 @@ h6 {
   color: rgba(255, 255, 255, 0.85);
 }
 
+/* line 117, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-footer {
   padding-top: 70px;
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 121, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-footer a:not(.btn) {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 124, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
 @media (min-width: 1200px) {
+  /* line 131, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .main-header .is-stuck {
     background: #fff !important;
   }
+  /* line 135, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
   .mainbar-wrap.is-stuck .main-nav > li > a,
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
     color: #424242 !important;
   }
+  /* line 142, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
     border-color: #424242 !important;
   }
+  /* line 146, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .is-stuck .btn-underlined {
     color: #3d3d3d;
   }
+  /* line 149, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .is-stuck .btn-underlined:after {
     background-color: #000;
   }
+  /* line 152, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .is-stuck .btn-underlined:hover {
     color: #000;
   }
+  /* line 157, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .is-stuck .btn-bordered {
     color: var(--color-primary);
     border-color: var(--color-primary);
   }
+  /* line 161, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .is-stuck .btn-bordered:hover {
     border-color: #3d3d3d;
     background-color: #3d3d3d;
     color: #fff;
   }
+  /* line 167, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/opus-2.scss */
   .megamenu-heading {
     color: #3b91f7;
   }
 }
+
+/*# sourceMappingURL=opus-2.css.map */

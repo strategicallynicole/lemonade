@@ -1,3 +1,4 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 :root {
   --color-primary:#ffd200;
   --color-secondary:#ff546c;
@@ -5,6 +6,7 @@
   --color-gradient-stop:#ffd200;
 }
 
+/* line 8, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 body {
   font-family: Glacial Indifference;
   font-weight: 400;
@@ -13,16 +15,19 @@ body {
   color: #8b8cb3;
 }
 
+/* line 18, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 a:hover {
   color: var(--color-primary);
 }
 
+/* line 23, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 #content {
   background-color: #0d0e59;
   background-image: url(../../demo/bg/bg-21.png);
   background-position: center bottom;
 }
 
+/* line 29, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -33,52 +38,61 @@ a:hover {
   color: #000;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .h1, h1 {
   font-size: 52px;
   font-weight: 700;
   line-height: 1.2em;
 }
 
+/* line 45, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .h2, h2 {
   font-size: 38px;
   font-weight: 700;
   line-height: 1.4em;
 }
 
+/* line 51, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .h3, h3 {
   font-size: 28px;
   font-weight: 700;
   line-height: 1.6em;
 }
 
+/* line 57, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .h4, h4 {
   font-size: 25px;
   font-weight: 400;
   line-height: 1.6em;
 }
 
+/* line 63, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .h5, h5 {
   font-size: 22px;
   font-weight: 400;
   line-height: 1.8em;
 }
 
+/* line 69, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .h6, h6 {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8em;
 }
 
+/* line 77, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-nav > li > a {
   font-size: 16px;
   letter-spacing: 0.05em;
   color: white;
 }
 
+/* line 82, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-nav > li > a .link-ext {
   background: #ff546c;
 }
 
+/* line 86, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -86,6 +100,7 @@ a:hover {
   color: white;
 }
 
+/* line 94, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer {
   background-image: url(../../demo/bg/bg-20.png);
   background-repeat: no-repeat;
@@ -94,18 +109,22 @@ a:hover {
   color: #8b8cb3;
 }
 
+/* line 101, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer a:not(.btn) {
   color: #8b8cb3;
 }
 
+/* line 104, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
+/* line 110, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer .social-icon a {
   color: #fff;
 }
 
+/* line 116, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer .contact-form input,
 .main-footer .contact-form select,
 .main-footer .contact-form textarea,
@@ -114,6 +133,7 @@ a:hover {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
+/* line 123, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer .contact-form input:focus,
 .main-footer .contact-form select:focus,
 .main-footer .contact-form textarea:focus,
@@ -121,11 +141,15 @@ a:hover {
   border-color: #fff;
 }
 
+/* line 127, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer .contact-form input[type=submit] {
   border-color: var(--color-primary);
   color: var(--color-primary);
 }
 
+/* line 131, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/freelancer.scss */
 .main-footer .contact-form input[type=submit]:hover {
   color: #000;
 }
+
+/*# sourceMappingURL=freelancer.css.map */

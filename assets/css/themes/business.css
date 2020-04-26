@@ -5,6 +5,7 @@
   font-style: normal;
 }
 
+/* line 9, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 :root {
   --color-primary: #ffc70a;
   --color-secondary: #0e305d;
@@ -12,6 +13,7 @@
   --color-gradient-stop: #ffcd2b;
 }
 
+/* line 16, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 body {
   font-family: 'Basier Square', sans-serif;
   font-weight: 400;
@@ -20,6 +22,7 @@ body {
   color: #808996;
 }
 
+/* line 24, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -31,37 +34,44 @@ body {
   color: #0e305d;
 }
 
+/* line 35, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .h1, h1 {
   font-size: 55px;
   font-weight: 700;
   line-height: 1.2em;
 }
 
+/* line 41, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .h2, h2 {
   font-size: 37px;
   line-height: 1.2em;
 }
 
+/* line 46, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .h3, h3 {
   font-size: 26px;
   line-height: 1.25em;
 }
 
+/* line 51, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .h4, h4 {
   font-size: 24px;
   line-height: 1.45em;
 }
 
+/* line 56, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .h5, h5 {
   font-size: 20px;
   line-height: 1.5em;
 }
 
+/* line 61, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .h6, h6 {
   font-size: 18px;
   line-height: 1.5em;
 }
 
+/* line 68, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .contact-form input,
 .contact-form select,
 .contact-form textarea,
@@ -69,6 +79,7 @@ body {
   border-color: rgba(255, 255, 255, 0.15);
 }
 
+/* line 74, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -76,27 +87,32 @@ body {
   color: #fff;
 }
 
+/* line 80, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .main-footer {
   background-color: #161b27;
   color: #7e8390;
   padding-top: 55px;
 }
 
+/* line 85, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .main-footer a:not(.btn) {
   color: #7e8390;
 }
 
+/* line 88, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
 @media (min-width: 1200px) {
+  /* line 98, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
   .main-nav > li a {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.025em;
     color: rgba(255, 255, 255, 0.75);
   }
+  /* line 105, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/business.scss */
   .main-nav > li.is-active > a,
   .main-nav > li.current-menu-item > a,
   .main-nav > li:hover > a,
@@ -104,3 +120,5 @@ body {
     color: white;
   }
 }
+
+/*# sourceMappingURL=business.css.map */

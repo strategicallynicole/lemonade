@@ -1,3 +1,4 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 :root {
   --color-primary: #e2a8a8;
   --color-secondary: #8ac6d0;
@@ -5,6 +6,7 @@
   --color-gradient-stop: #8ac6d0;
 }
 
+/* line 8, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -13,6 +15,7 @@ body {
   color: #828282;
 }
 
+/* line 16, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,42 +26,50 @@ body {
   color: #000000;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h4, h4,
 .h5, h5,
 .h6, h6 {
   font-family: 'Playfair Display', serif;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h1, h1 {
   font-size: 52px;
   line-height: 1.4em;
 }
 
+/* line 37, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h2, h2 {
   font-size: 42px;
   line-height: 1.3em;
 }
 
+/* line 42, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h3, h3 {
   font-size: 30px;
   line-height: 1.6em;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h4, h4 {
   font-size: 25px;
   line-height: 1.7em;
 }
 
+/* line 52, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h5, h5 {
   font-size: 25px;
   line-height: 1.8em;
 }
 
+/* line 57, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .h6, h6 {
   font-size: 18px;
   line-height: 1.6em;
 }
 
+/* line 62, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 #content {
   background-image: url(../../demo/bg/creative-content-bg.png);
   background-repeat: no-repeat;
@@ -66,25 +77,29 @@ body {
   background-position: center top;
 }
 
+/* line 71, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .secondarybar-wrap:first-child {
-  background: -webkit-gradient(linear, left top, right top, from(#ecbabe), to(#8ac6d0));
   background: linear-gradient(90deg, #ecbabe 0%, #8ac6d0 100%);
 }
 
+/* line 77, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .secondarybar .header-module {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+/* line 83, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .secondarybar .iconbox h3 {
   font-family: inherit;
 }
 
+/* line 89, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .navbar-brand {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
+/* line 98, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .main-nav > li > a {
   font-size: 14px;
   font-weight: 300;
@@ -93,6 +108,7 @@ body {
   text-transform: uppercase;
 }
 
+/* line 105, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -100,6 +116,7 @@ body {
   color: var(--color-primary);
 }
 
+/* line 116, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .contact-form input,
 .contact-form select,
 .contact-form textarea,
@@ -108,6 +125,7 @@ body {
   color: #fff;
 }
 
+/* line 123, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -116,40 +134,50 @@ body {
   color: #fff;
 }
 
+/* line 128, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .contact-form input[type=submit] {
   border: none;
   background: rgba(255, 255, 255, 0.9);
   color: #a3a3a3;
 }
 
+/* line 135, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .ld-media-row {
   margin-left: -10px;
   margin-right: -10px;
 }
 
+/* line 139, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .ld-media-row > div {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 20px;
 }
 
+/* line 146, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .main-footer {
   color: #a1a3ab;
 }
 
+/* line 149, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .main-footer a:not(.btn) {
   color: #777981;
 }
 
+/* line 152, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
+/* line 158, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .main-footer .social-icon a {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.15);
 }
 
+/* line 162, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/beauty.scss */
 .main-footer .social-icon a:hover {
   background-color: var(--color-primary);
 }
+
+/*# sourceMappingURL=beauty.css.map */

@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 :root {
   --color-primary:#f5634b;
   --color-gradient-start:#f5634b;
   --color-gradient-stop:#f5634b;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -12,6 +14,7 @@ body {
   color: #808291;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,40 +26,49 @@ body {
   color: #181b31;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h4, h4,
 .h5, h5,
 .h6, h6 {
   font-family: 'Poppins', sans-serif;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h1, h1 {
   font-size: 65px;
 }
 
+/* line 36, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h2, h2 {
   font-size: 55px;
 }
 
+/* line 40, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h3, h3 {
   font-size: 48px;
 }
 
+/* line 44, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h4, h4 {
   font-size: 28px;
 }
 
+/* line 48, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h5, h5 {
   font-size: 25px;
 }
 
+/* line 52, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .h6, h6 {
   font-size: 19px;
 }
 
+/* line 56, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-header {
   padding: 50px 100px 0;
 }
 
+/* line 62, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-nav > li > a {
   font-family: 'Teko', sans-serif;
   font-size: 20px;
@@ -65,10 +77,12 @@ body {
   color: #fff;
 }
 
+/* line 69, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-nav > li > a .link-ext {
   background-color: var(--color-primary);
 }
 
+/* line 73, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -76,27 +90,35 @@ body {
   color: var(--color-primary);
 }
 
+/* line 81, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .btn {
   font-family: 'Teko', sans-serif;
 }
 
+/* line 85, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-footer {
   color: #a1a3ab;
 }
 
+/* line 88, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-footer a:not(.btn) {
   color: #777981;
 }
 
+/* line 91, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
+/* line 97, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-footer .social-icon a {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.15);
 }
 
+/* line 101, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/architecture.scss */
 .main-footer .social-icon a:hover {
   background-color: var(--color-primary);
 }
+
+/*# sourceMappingURL=architecture.css.map */

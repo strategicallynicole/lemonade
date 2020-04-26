@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "lookbook.css",
+	"sources": [
+		"../../styles/themes/lookbook.scss"
+	],
+	"sourcesContent": [
+		":root {\n\t--color-primary:#f13c46;\n\t--color-gradient-start:#f42958;\n\t--color-gradient-stop:#e4442a;\n}\n\nbody {\n\tfont-family: 'Roboto', sans-serif;\n\tfont-weight: 400;\n\tfont-size: 1em;\n\tline-height: 1.7em;\n\tcolor: #808291;\n}\n\n.h1, h1,\n.h2, h2,\n.h3, h3,\n.h4, h4,\n.h5, h5,\n.h6, h6 {\n\tfont-family: 'Glacial Indifference', sans-serif;\n\tfont-weight: 700;\n\tline-height: 1.2em;\n\tcolor: #181b31;\n}\n\n.h1, h1 {\n\tfont-size: 48px;\n}\n\n.h2, h2 {\n\tfont-size: 40px;\n}\n\n.h3, h3 {\n\tfont-size: 32px;\n}\n\n.h4, h4 {\n\tfont-size: 25px;\n}\n\n.h5, h5 {\n\tfont-size: 21px;\n}\n\n.h6, h6 {\n\tfont-size: 18px;\n}\n\n.main-nav > li {\n\t\t\n\t> a {\n\t\tfont-size: 30px;\n\t\tfont-weight: 700;\n\t\tletter-spacing: -0.01em;\n\t\tcolor: #65676d;\n\t}\n\t&.is-active > a,\n\t&.current-menu-item > a,\n\t&:hover > a,\n\t> a:hover {\n\t\tcolor: #000;\n\t}\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,KAAK,CAAC;EACL,eAAe,CAAA,OAAC;EAChB,sBAAsB,CAAA,OAAC;EACvB,qBAAqB,CAAA,OAAC;CACtB;;;AAED,AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,oBAAoB;EACjC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,KAAK;EAClB,KAAK,EAAE,OAAO;CACd;;;AAED,AAAA,GAAG,EAAE,EAAE;AACP,GAAG,EAAE,EAAE;AACP,GAAG,EAAE,EAAE;AACP,GAAG,EAAE,EAAE;AACP,GAAG,EAAE,EAAE;AACP,GAAG,EAAE,EAAE,CAAC;EACP,WAAW,EAAE,kCAAkC;EAC/C,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,KAAK;EAClB,KAAK,EAAE,OAAO;CACd;;;AAED,AAAA,GAAG,EAAE,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;CACf;;;AAED,AAAA,GAAG,EAAE,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;CACf;;;AAED,AAAA,GAAG,EAAE,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;CACf;;;AAED,AAAA,GAAG,EAAE,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;CACf;;;AAED,AAAA,GAAG,EAAE,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;CACf;;;AAED,AAAA,GAAG,EAAE,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;CACf;;;AAED,AAEC,SAFQ,GAAG,EAAE,GAEX,CAAC,CAAC;EACH,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,OAAO;EACvB,KAAK,EAAE,OAAO;CACd;;;AAPF,AAQC,SARQ,GAAG,EAAE,AAQZ,UAAU,GAAG,CAAC;AARhB,SAAS,GAAG,EAAE,AASZ,kBAAkB,GAAG,CAAC;AATxB,SAAS,GAAG,EAAE,AAUZ,MAAM,GAAG,CAAC;AAVZ,SAAS,GAAG,EAAE,GAWX,CAAC,AAAA,MAAM,CAAC;EACT,KAAK,EAAE,IAAI;CACX"
+}

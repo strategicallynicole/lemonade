@@ -1,9 +1,11 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 :root {
   --color-primary: #E26099;
   --color-gradient-start: #E26099;
   --color-gradient-stop: #E26099;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 body {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -12,6 +14,7 @@ body {
   color: #7F7F7F;
 }
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -23,42 +26,49 @@ body {
   color: #000000;
 }
 
+/* line 26, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .h1,
 h1 {
   font-size: 44px;
   line-height: 1.22em;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .h2,
 h2 {
   font-size: 33px;
   line-height: 1.6363em;
 }
 
+/* line 38, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .h3,
 h3 {
   font-size: 28px;
   line-height: 1.2em;
 }
 
+/* line 44, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .h4,
 h4 {
   font-size: 26px;
   line-height: 1.333em;
 }
 
+/* line 50, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .h5,
 h5 {
   font-size: 21px;
   line-height: 1.2em;
 }
 
+/* line 56, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .h6,
 h6 {
   font-size: 18px;
   line-height: 1.2em;
 }
 
+/* line 66, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .main-nav > li > a {
   padding-left: 20px;
   padding-right: 20px;
@@ -70,6 +80,7 @@ h6 {
   color: #000;
 }
 
+/* line 76, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -77,35 +88,44 @@ h6 {
   color: var(--color-primary);
 }
 
+/* line 85, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .main-footer {
   padding-top: 70px;
   background-color: #30333A;
   color: #92959B;
 }
 
+/* line 90, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .main-footer a:not(.btn) {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* line 93, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
 .main-footer a:not(.btn):hover {
   color: #fff;
 }
 
 @media (min-width: 1200px) {
+  /* line 101, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
   .main-header .is-stuck {
     background: #fff !important;
   }
+  /* line 105, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
   .mainbar-wrap .btn {
     border-color: rgba(255, 255, 255, 0.6);
     color: #fff;
   }
+  /* line 110, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
   .mainbar-wrap.is-stuck .main-nav > li > a,
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
     color: #424242 !important;
   }
+  /* line 117, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-5.scss */
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
     border-color: #424242 !important;
   }
 }
+
+/*# sourceMappingURL=virtus-5.css.map */

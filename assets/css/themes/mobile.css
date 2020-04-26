@@ -1,3 +1,4 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 :root {
   --color-primary:#ff798e;
   --color-secondary:#0287ed;
@@ -7,6 +8,7 @@
   --color-gradient-stop-secondary: #03afe0;
 }
 
+/* line 10, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 body {
   font-family: Poppins;
   font-weight: 400;
@@ -15,6 +17,7 @@ body {
   color: #7c7e8e;
 }
 
+/* line 18, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -25,51 +28,60 @@ body {
   color: #181b31;
 }
 
+/* line 28, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .h1, h1 {
   font-weight: 500;
   line-height: 1.3em;
   font-size: 48px;
 }
 
+/* line 34, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .h2, h2 {
   line-height: 1.4em;
   font-size: 35px;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .h3, h3 {
   font-weight: 500;
   line-height: 1.4em;
   font-size: 28px;
 }
 
+/* line 45, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .h4, h4 {
   font-weight: 500;
   line-height: 1.5em;
   font-size: 21px;
 }
 
+/* line 51, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .h5, h5 {
   font-weight: 600;
   line-height: 1.5em;
   font-size: 18px;
 }
 
+/* line 57, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .h6, h6 {
   font-weight: 600;
   line-height: 1.5em;
   font-size: 17px;
 }
 
+/* line 65, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-nav > li > a {
   font-size: 14px;
   letter-spacing: 0.025em;
   color: rgba(255, 255, 255, 0.83);
 }
 
+/* line 70, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-nav > li > a .link-ext {
   background: white;
 }
 
+/* line 75, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -77,32 +89,41 @@ body {
   color: white;
 }
 
+/* line 83, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-footer {
   color: #fff;
 }
 
+/* line 86, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-footer a:not(.btn) {
   color: #fff;
 }
 
+/* line 89, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-footer a:not(.btn):hover {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* line 95, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-footer .social-icon a {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* line 98, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-footer .social-icon a:hover {
   color: #fff;
 }
 
+/* line 103, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
 .main-footer > section:first-child {
   padding-top: 150px;
 }
 
 @media screen and (min-width: 992px) {
+  /* line 110, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/mobile.scss */
   .main-footer > section:first-child {
     padding-top: 400px;
   }
 }
+
+/*# sourceMappingURL=mobile.css.map */

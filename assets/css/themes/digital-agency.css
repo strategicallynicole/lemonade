@@ -1,3 +1,4 @@
+/* line 1, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 :root {
   --color-primary: #fd7250;
   --color-secondary: #2ed47c;
@@ -5,6 +6,7 @@
   --color-gradient-stop: #fd7250;
 }
 
+/* line 8, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 body {
   font-family: 'Glacial Indifference', sans-serif;
   font-weight: 400;
@@ -13,6 +15,7 @@ body {
   color: #808291;
 }
 
+/* line 16, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -24,36 +27,43 @@ body {
   color: #181b31;
 }
 
+/* line 27, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .h1, h1 {
   line-height: 1.111em;
   font-size: 42px;
 }
 
+/* line 32, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .h2, h2 {
   line-height: 1.111em;
   font-size: 36px;
 }
 
+/* line 37, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .h3, h3 {
   line-height: 1.25em;
   font-size: 30px;
 }
 
+/* line 42, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .h4, h4 {
   line-height: 1.5em;
   font-size: 22px;
 }
 
+/* line 47, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .h5, h5 {
   line-height: 1.5em;
   font-size: 19px;
 }
 
+/* line 52, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .h6, h6 {
   line-height: 1.5em;
   font-size: 17px;
 }
 
+/* line 59, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .main-nav > li > a {
   font-size: 14px;
   font-weight: 700;
@@ -62,6 +72,7 @@ body {
   text-transform: uppercase;
 }
 
+/* line 66, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
@@ -69,14 +80,19 @@ body {
   color: #fff;
 }
 
+/* line 72, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .main-nav > li > a .link-ext {
   background-color: #fff;
 }
 
+/* line 80, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .main-footer a:not(.btn) {
   color: #777880;
 }
 
+/* line 83, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/digital-agency.scss */
 .main-footer a:not(.btn):hover {
   color: #000;
 }
+
+/*# sourceMappingURL=digital-agency.css.map */

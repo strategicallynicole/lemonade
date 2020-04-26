@@ -2,20 +2,26 @@
   font-family: 'Basier Square';
   src: url("../../fonts/basiersquare-regular-webfont.woff2") format("woff2"), url("../../fonts/basiersquare-regular-webfont.woff") format("woff");
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+}
 
+/* line 9, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 :root {
   --color-primary: #348ef5;
   --color-gradient-start: #348ef5;
-  --color-gradient-stop: #348ef5; }
+  --color-gradient-stop: #348ef5;
+}
 
+/* line 15, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 body {
   font-family: 'Basier Square', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   letter-spacing: 0;
-  color: #7f7f7f; }
+  color: #7f7f7f;
+}
 
+/* line 23, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .h1, h1,
 .h2, h2,
 .h3, h3,
@@ -24,78 +30,120 @@ body {
 .h6, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: #000; }
+  color: #000;
+}
 
+/* line 34, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .h1,
 h1 {
   font-size: 35px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
+/* line 40, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .h2,
 h2 {
   font-size: 42px;
-  line-height: 1.484em; }
+  line-height: 1.484em;
+}
 
+/* line 46, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .h3,
 h3 {
   font-size: 35px;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
 
+/* line 52, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .h4,
 h4 {
   font-size: 30px;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
 
+/* line 58, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .h5,
 h5 {
   font-size: 25px;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
 
+/* line 64, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .h6,
 h6 {
   font-size: 20px;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
 
+/* line 75, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .main-nav > li > a {
   font-size: 12px;
   line-height: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
+/* line 84, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
-  color: rgba(255, 255, 255, 0.85); }
+  color: rgba(255, 255, 255, 0.85);
+}
 
+/* line 93, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
 .main-footer {
   padding-top: 70px;
   background-color: #30333A;
-  color: #92959B; }
-  .main-footer a:not(.btn) {
-    color: rgba(255, 255, 255, 0.6); }
-    .main-footer a:not(.btn):hover {
-      color: #fff; }
+  color: #92959B;
+}
+
+/* line 98, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
+.main-footer a:not(.btn) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* line 101, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
+.main-footer a:not(.btn):hover {
+  color: #fff;
+}
 
 @media (min-width: 1200px) {
+  /* line 108, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
   .main-header .is-stuck {
-    background: #fff !important; }
+    background: #fff !important;
+  }
+  /* line 112, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
   .mainbar-wrap.is-stuck .main-nav > li > a,
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
-    color: #424242 !important; }
+    color: #424242 !important;
+  }
+  /* line 119, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
-    border-color: #424242 !important; }
+    border-color: #424242 !important;
+  }
+  /* line 123, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
   .is-stuck .btn {
     color: #fff;
-    border-color: #5174fd; }
+    border-color: #5174fd;
+  }
+  /* line 128, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
   .is-stuck .btn.btn-solid {
-    background-color: #5174fd; }
+    background-color: #5174fd;
+  }
+  /* line 132, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
   .is-stuck .btn:hover {
     border-color: #3a3a3a;
-    color: #fff; }
+    color: #fff;
+  }
+  /* line 137, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/themes/virtus-1.scss */
   .is-stuck .btn:hover, .is-stuck .btn.btn-solid:hover {
-    background-color: #3a3a3a; } }
+    background-color: #3a3a3a;
+  }
+}
+
+/*# sourceMappingURL=virtus-1.css.map */
