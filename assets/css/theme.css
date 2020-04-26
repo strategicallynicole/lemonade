@@ -13,27 +13,11 @@
 
 /* line 3, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
 article.liquid-lp.liquid-blog-item.liquid-blog-item-grid.liquid-blog-scheme-dark.mb-50 {
-  background: url("../img/box.svg");
-  background-size: cover;
-  background-position: center;
   padding: 20px;
   background-color: #DCDCDC;
 }
 
-/* line 12, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
-.three-dee {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  text-transform: uppercase;
-  font-size: 12em;
-  font-weight: 700;
-  color: #f5f5f5;
-  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
-}
-
-/* line 37, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
+/* line 10, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
 .purple-stroke {
   text-stroke-color: #7254c9 !important;
   text-stroke-width: 2px !important;
@@ -32783,7 +32767,7 @@ MOBULE HEADER
   }
 }
 
-/* line 380, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
+/* line 353, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
 :root {
   --color-primary: $color-primary;
   --color-secondary: darken($color-primary, 25%);
@@ -32796,7 +32780,7 @@ MOBULE HEADER
   --black: $black;
 }
 
-/* line 392, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
+/* line 365, ../../../../../../../../../../../../../Users/nic/Gits/lemonghost/content/themes/lemon/assets/styles/theme.scss */
 .call-to-action-area {
   background-size: cover;
 }
