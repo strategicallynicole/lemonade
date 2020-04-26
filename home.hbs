@@ -16,8 +16,8 @@
 
 		<link rel="stylesheet" href="{{asset "vendors/liquid-icon/liquid-icon.min.css"}}" />
 		<link rel="stylesheet" href="{{asset "css/theme-vendors.min.css"}}" />
-		<link rel="stylesheet" href="{{asset "scss/theme.css"}}" />
-		<link rel="stylesheet" href="{{asset "scss/themes/wave.css"}}" />
+		<link rel="stylesheet" href="{{asset "styles/theme.css"}}" />
+		<link rel="stylesheet" href="{{asset "styles/themes/wave.css"}}" />
 <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 
 		<!-- Head Libs -->
@@ -31,7 +31,7 @@
 
 	</head>
 
-	<body class="lqd-stack-buttons-style-2 header-style-fullscreen" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+	<body class="lqd-stack-buttons-style-2 header-style-fullscreen bg-vulcan" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
 
 		<div id="wrap">
 
@@ -44,26 +44,7 @@
 							<div class="row mainbar-row align-items-lg-stretch px-4">
 
 								<div class="col">
-									<div class="navbar-header">
-										<a class="navbar-brand" href="index.html" rel="home">
-											<span class="navbar-brand-inner">
-												<img class="logo-dark" src="{{asset "img/logos/blackandpurplelined.svg"}}" alt="OAK">
-												<img class="logo-light" src="{{asset "img/logos/whiteandpurplelined.svg"}}" alt="Ave HTML Template">
-												<img class="logo-sticky" src="{{asset "img/logos/blackandpurplestacked.svg"}}" alt="Ave HTML Template">
-												<img class="mobile-logo-default" src="{{asset "img/logos/whiteandpurplestacked.svg"}}" alt="Ave HTML Template">
-												<img class="logo-default" width="150" src="{{asset "img/logos/whiteandpurplelined.svg"}}" alt="Ave HTML Template">
-											</span>
-										</a>
-										<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse"
-										 data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
-											<span class="sr-only">Toggle navigation</span>
-											<span class="bars">
-												<span class="bar"></span>
-												<span class="bar"></span>
-												<span class="bar"></span>
-											</span>
-										</button>
-									</div><!-- /.navbar-header -->
+		
 								</div><!-- /.col -->
 
 								<div class="col text-right">
@@ -150,9 +131,9 @@
 
 			</header><!-- /.main-header -->
 
-			<main id="content" class="content bg-black" data-liquid-stack="true" data-stack-options='{"navigation":false,"prevNextButtons":true,"pageNumber":true,"prevNextLabels":{"prev":"Previous","next":"Next"},"effect":"fadeScale", "disableOnMobile": false}'>
+			<main id="content" class="content bg-vulcan" data-liquid-stack="true" data-stack-options='{"navigation":false,"prevNextButtons":true,"pageNumber":true,"prevNextLabels":{"prev":"Previous","next":"Next"},"effect":"fadeScale", "disableOnMobile": false}'>
 
-				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
+				<section class="bg-vulcan vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0">
 
 				{{> "particles"}}
 
@@ -193,7 +174,7 @@
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>It's about your marketing and sales strategy again... It's been... underwhelming. We feel you should demand more of your marketing spend.</p>
-											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
+											<a href="#Section-2" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
 												<span>
 													<span class="btn-txt">That's Accurate. <i class="fas fa-arrow-circle-right"></i></span>
 												</span>
@@ -210,7 +191,7 @@
 
 				</section>
 
-				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
+				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-vulcan">
 
 {{> "particles" }}
 
@@ -243,15 +224,15 @@
 												data-split-text="true"
 												data-split-options='{ "type": "chars, words" }'
 												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 500, "startDelay": 200, "delay": 50, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>We help businesses <span class="purplish">quit duckin' around</span> with marketing.</h2>
+												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 200, "startDelay": 10, "delay": 10, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
+											style="font-size: xx-large">We help businesses <span class="purplish" style="color: #7D5BA6">quit duckin' around</span> with marketing.</h2>
 											<br /><p
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
-												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 400, "startDelay": 200, "delay": 80, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
+												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 200, "startDelay": 20, "delay": 20, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
 												We could make a site that says all the usual agency s@#$, but you don’t have time for that and neither do we.  </p>
-											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
+											<a href="#Section-3" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
 												<span>
 													<span class="btn-txt">Show the need-to-know info <i class="fas fa-arrow-circle-right"></i></span><br />
 													<span class="btn-txt">Schedule a call<i class="fas fa-arrow-circle-right"></i></span>
@@ -269,7 +250,7 @@
 
 				</section>
 
-				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
+				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-vulcan">
 
 				{{> "particles" }}
 					<div class="container">
@@ -287,8 +268,8 @@
 										<div class="lqd-promo-img">
 											<div class="lqd-promo-img-inner" data-reveal="true" data-reveal-options='{ "direction": "rl", "bgcolor": "#7D5BA6", "revealSettings": { "onCoverAnimations": { "scale": [2, 1] } } }'>
 											<picture>
-  <source srcset="{{asset "img/bobtheblobisback.webp"}}" type="image/webp">
-  <img class="bob img-fluid" src="{{asset "img/bobtheblobisback.png"}}" alt="OAKwave marketing strategy">
+  <source srcset="{{asset "images/bobtheblobpartdeux.webp"}}" type="image/webp">
+  <img class="bob img-fluid" src="{{asset "images/bobtheblobpartdeux.png"}}" alt="OAKwave marketing strategy">
 </picture>
 									</div><!-- /.lqd-promo-img-inner -->
 									</div><!-- /.lqd-promo-img -->
@@ -303,32 +284,32 @@
 												data-split-options='{ "type": "chars, words" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 800, "delay": 70, "initValues": { "translateX": 70, "rotateY": 65, "opacity": 0 }, "animations": { "translateX": 0, "rotateY": 0, "opacity": 1 } }'
-											>Facts:</h2><br />
+											style="font-size: xx-large;">Facts:</h2><br />
 											<p class="less-room"
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1000, "delay": 120, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-											><span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; Hands down, we are the most resourceful, creative, problem-solving marketing geniuses you will ever find.</p><br />
+											><span class="btn-txt"><i class="fad fa-alien-monster iconduo" style="color: $soft-purple; --fa-secondary-opacity: 0.5;"></i></span> &nbsp; &nbsp; Hands down, we are the most resourceful, creative, problem-solving marketing geniuses you will ever find.</p><br />
 											
 											<p class="less-room"
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1100, "delay": 150, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'>
-												<span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; We’re really, really good at campaign concepts, branding, content, and strategy... and really, really bad at corporate frills, small talk, and sending Christmas cards.</p><br />
+												<span class="btn-txt"><i class="fad fa-alien-monster iconduo" style="color: $soft-purple; --fa-secondary-opacity: 0.5;"></i></span> &nbsp; &nbsp; We’re really, really good at campaign concepts, branding, content, and strategy... and really, really bad at corporate frills, small talk, and sending Christmas cards.</p><br />
 											
 											<p class="less-room"
 												data-split-text="true"
 												data-split-options='{ "type": "lines" }'
 												data-custom-animations="true"
 												data-ca-options='{ "triggerHandler": "inview", "animationTarget": "all-childs", "duration": 800, "startDelay": 1200, "delay": 180, "initValues": { "translateY": 50, "opacity": 0 }, "animations": { "translateY": 0, "opacity": 1 } }'
-											><span class="btn-txt"><i class="fas fa-alien-monster purplish"></i></span> &nbsp; &nbsp; Your revenue is the only KPI that matters.  Everything else is just <span class="strike purplish">bullshit</span> agency fluff and nonsense to make their retainer look worth it.</p><br />
+											><span class="btn-txt"><i class="fad fa-alien-monster iconduo"></i></span> &nbsp; &nbsp; Your revenue is the only KPI that matters.  Everything else is just <span class="strike purplish">bullshit</span> agency fluff and nonsense to make their retainer look worth it.</p><br />
 											
 											
 											
 											<p class="less-room"><!--And here's some more info about how we do <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">content, branding, campaigns</a>, or <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">strategy</a>.  <br />-->
-											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
+											<a href="#Section-4" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
 												<span>
 													<span class="btn-txt">What else should be known about OAKwave?<i class="fas fa-arrow-circle-right"></i></span>
 												</span>
@@ -345,7 +326,7 @@
 
 				</section>
 
-				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-gigas">
+				<section class="vc_row fullheight d-flex flex-wrap align-items-center py-5 py-md-0 bg-vulcan">
 
 					{{> "particles" }}
 
@@ -398,7 +379,7 @@
 											
 											
 											<p class="less-room"><!--And here's some more info about how we do <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">content, branding, campaigns</a>, or <a class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white" href="#">strategy</a>.  <br />-->
-											<a href="#" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
+											<a href="https://www.oakwave.com/about" class="btn btn-underlined text-uppercase font-size-12 font-weight-bold ltr-sp-2 color-secondary text-hover-white">
 												<span style="display: block !important;">
 													<span style="display:flex block !important;" class="btn-txt">Schedule a Call<i class="fas fa-arrow-circle-right"></i></span>
 													<!--	<span class="btn-txt">Learn About Our Process<i class="fas fa-arrow-circle-right"></i></span><br />

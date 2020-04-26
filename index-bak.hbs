@@ -1,0 +1,70 @@
+{{!< default}}
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
+{{#contentFor "bodyparts"}}
+ class="blog bg-vulcan scheme-light" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="black" data-mobile-header-scheme="light" data-mobile-nav-breakpoint="1199"
+{{/contentFor}}
+
+{{#contentFor "headerparts"}}
+ class="main-header main-header-overlay scheme-light" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'
+ {{/contentFor}}
+
+ {{#contentFor "pageparts"}}
+ {{/contentFor}}
+<div style="background: url('{{asset "img/newwaves.svg"}}'); background-size: 100%; background-repeat: no-repeat;"  class="titlebar titlebar-sm scheme-light white-text text-white text-center">
+<header {{{block "headerparts"}}}>
+	
+		{{> "navmenu"}}
+
+	</header><!-- /.main-header -->
+	
+	
+		<div class="container titlebar-container">
+			<div class="row titlebar-container">
+				<div class="titlebar-col col-md-12">
+					<h1 data-fittext="true" data-fittext-options='{ "maxFontSize": 80, "minFontSize": 32 }'>{{@blog.title}}</h1>
+					<a class="titlebar-scroll-link" href="#content" data-localscroll="true"><i class="fa fa-angle-down"></i></a>
+				</div><!-- /.titlebar-col -->
+			</div><!-- /.titlebar-row -->
+		</div><!-- /.titlebar-container -->
+	</div><!-- /.titlebar-inner -->
+
+</div><!-- /.titlebar -->
+ <div class="container">
+     <div class="row">
+			<div class="col-md-8">
+                <div class="liquid-blog-posts liquid-blog-scheme-light">
+					<div class="liquid-blog-grid liquid-blog-scheme-light row">
+                                                         
+                                {{#get "posts" filter="featured:true" include="tags" limit="1" as |featured_post|}}
+                                     {{!#is "index"}} 
+                                      {{#foreach featured_post}}
+                                        {{> "post-card"}}
+                                                                                  {{/foreach}}
+                              {{!/is}}
+                                         {{/get}}
+                               
+					            {{#get "posts" filter="featured:false, page:false" limit="9" include="tags" }}
+                                                                        {{!#is "index"}} 
+
+                                    {{#foreach posts}}
+                                        {{> "post-card"}}
+                                    {{/foreach}}
+                                    {{!/is}}
+                                {{/get}}
+                            
+                            {{pagination}}
+
+							</div><!-- /.liquid-blog-grid liquid-blog-style-classic row -->
+                            {{!-- Pagination --}}
+						</div><!-- /.liquid-blog-posts -->
+
+					</div><!-- /.col-md-8 -->
+
+					{{> "sidebar"}}
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		
+
+

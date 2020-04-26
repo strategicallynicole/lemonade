@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="{{@site.lang}}">
+<head>
+    {{!-- Document Settings --}}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="theme-color" content="#ffffff">
+
+    {{!-- Base Meta --}}
+    <title>{{meta_title}} | OAKwave Marketing Strategy &amp; Sales Enablement</title>
+    <meta name="HandheldFriendly" content="True" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#ffffff">
+    {{!-- Styles'n'Scripts --}}
+    {{> fbpixel}}
+    {{> quora}}
+    {{> google-analytics}}
+    {{!> hotjar}}
+	
+		<title>{{meta_title}}</title>
+		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{asset "vendors/liquid-icon/liquid-icon.min.css"}}" />
+		<link rel="stylesheet" href="{{asset "css/theme-vendors.min.css"}}" />
+				<link rel="stylesheet" href="{{asset "scss/main.css"}}" />
+				<link rel="stylesheet" href="{{asset "styles/themes/original.css"}}" />
+
+	
+		<!-- Head Libs -->
+		<script async src="{{asset "vendors/modernizr.min.js"}}"></script>
+ 	{{> "fbpixel"}}
+        {{!> quora}}
+    {{> "google-analytics"}}
+    {{!> hotjar}}
+    {{ghost_head}}
+    <script src="https://kit.fontawesome.com/dd47f1ac1c.js" crossorigin="anonymous"></script>
+</head>
+	<body {{{block "bodyparts"}}}>
+		<div id="wrap">
+			<main id="bg-vulcan scheme-white liquid-blog-scheme-light content py-0" {{{block "pageparts"}}}>
+				                      {{> "particles"}}	
+		
+				{{{body}}}
+				{{> "cta"}}
+			</main><!-- /#content.content -->         
+				{{> "footer"}}
+			</div><!-- /#wrap -->
+				{{> "hubspot"}}
+   	<script src="{{asset "js/jquery.min.js"}}"></script>
+   	<script src="{{asset "js/theme-vendors.js"}}"></script>
+    <script src="{{asset "js/theme.min.js"}}"></script>
+
+	{{ghost_foot}}
+</body>
+</html>

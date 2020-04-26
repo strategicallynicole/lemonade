@@ -2,23 +2,75 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
 {{#contentFor "bodyparts"}}
- class="blog bg-vulcan" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="black" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199"
-{{/contentFor}}
-
-{{#contentFor "headerparts"}}
- class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'
+ class="blog" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="7254c9" data-mobile-header-scheme="7254c9" data-mobile-nav-breakpoint="1199"
  {{/contentFor}}
+		<div class="titlebar titlebar-sm scheme-light text-center" data-parallax="true" data-parallax-options='{ "parallaxBG": true }' style="background-image: url('{{@site.url}}/assets/img/rings.svg'); background-size: cover;">
+		
+			<header class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'>
+				<div class="mainbar-wrap">
+				<!--megamenu hover bg must start here
+                	<div class="megamenu-hover-bg"></di>--><!-- /.megamenu-hover-bg -->
+					<div class="container-fluid mainbar-container">
+						<div class="mainbar">
+							<div class="row mainbar-row align-items-lg-stretch px-4">
+								
+								<div class="col">
+                                    			<div class="navbar-header">
+                                                    {{> "logos"}} 
+                                                
+                                                </div>
+                                                
+                                     {{!--took after navbar header --}}
+								</div><!-- /.col -->
+								
+								<div class="col">
+									
+									<div class="collapse navbar-collapse" id="main-header-collapse">
+									<!-- ul primary-nav must start here and end after menu -->	
+											
+                                            {{> "primary-nav"}}
+                                            
+                                            	</div><!-- /#main-header-collapse -->
+									
+								</div><!-- /.col -->
+							
+								<div class="col text-right">
+                                    <div class="header-module">{{> "social-icons"}}</div>
+                                </div><!-- /.col -->
+							
+							</div><!-- /.mainbar-row -->
+						</div><!-- /.mainbar -->
+					</div><!-- /.mainbar-container -->
+				</div><!-- /.mainbar-wrap -->
+				
+			</header><!-- /.main-header -->
 
- {{#contentFor "pageparts"}}
- {{/contentFor}}
- {{> "titlebar" }}
- <div class="container">
-     <div class="row">
-			<div class="col-md-8">
-                <div class="liquid-blog-posts liquid-blog-scheme-dark">
-					<div class="liquid-blog-grid liquid-blog-style-classic row">
-                                                         
-                                {{#get "posts" filter="featured:true" include="tags" limit="1" as |featured_post|}}
+			<div class="titlebar-inner">
+				<div class="container titlebar-container">
+					<div class="row titlebar-container">
+						<div class="titlebar-col col-md-12">
+							{{>"particles"}}
+
+							<h1 class="three-dee" data-fittext="true" data-fittext-options='{ "maxFontSize": 80, "minFontSize": 32 }'>OAKwave Blog</h1>
+							<a class="titlebar-scroll-link" href="#content" data-localscroll="true"><i class="fa fa-angle-down"></i></a>
+						</div><!-- /.titlebar-col -->
+					</div><!-- /.titlebar-row -->
+				</div><!-- /.titlebar-container -->
+			</div><!-- /.titlebar-inner -->
+			
+		</div><!-- /.titlebar -->
+	
+		<main id="content" class="content ">
+			
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-8">
+
+						<div class="liquid-blog-posts">
+							<div class="liquid-blog-grid liquid-blog-scheme-dark liquid-blog-style-classic row">
+
+ {{#get "posts" filter="featured:true" include="tags" limit="1" as |featured_post|}}
                                      {{!#is "index"}} 
                                       {{#foreach featured_post}}
                                         {{> "post-card"}}
@@ -47,6 +99,8 @@ into the {body} of the default.hbs template --}}
 
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		
 
 
+			
+
+	  </main>

@@ -1,0 +1,45 @@
+{{!< static}}
+{{#post}}
+{{> static-header}}
+{{> static-menu}}
+<header class="container-fluid header">
+    <div class="bg"></div>
+    <div class="mouse-scroll"></div>
+    <div class="info-content">
+        <ul>
+            <li>hello@oakwave.com</li>
+</button>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModal">schedule a consultation</a></li>
+            <li>919.823.4333</li>
+        </ul>
+    </div>
+
+   
+
+
+    <div class="row">
+        <div class="col">
+            <h2 class="whitish"></h2>
+            <div class="extra-lg-text">
+                <span> {{title}}</span>
+                <span>    {{#if feature_image}}
+    <div class="image main"><img src="{{img_url feature_image}}" alt="{{title}}" /></div>
+    {{/if}}</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<div class="container-fluid default-content">
+    <div class="row">
+        <div class="col">
+{{content}}
+</div>
+</div>
+</div>
+
+
+{{/post}}

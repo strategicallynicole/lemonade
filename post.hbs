@@ -2,11 +2,11 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
 {{#contentFor "bodyparts"}}
-class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199"
+class="blog blog-single-default blog-scheme-light" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199"
 {{/contentFor}}
 
 {{#contentFor "headerparts"}}
- class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'
+ class="main-header main-header-overlay bg-vulcan" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'
  {{/contentFor}}
 	<header class="main-header main-header-overlay" data-react-to-megamenu="true" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'>
 		
@@ -14,7 +14,7 @@ class="blog blog-single-default blog-scheme-dark" data-mobile-nav-trigger-alignm
 	</header><!-- /.main-header -->
 {{!-- Everything inside the #post tags pulls data from the post --}}
 {{#post}} 
-    <main id="content" class="content py-0">
+    <main id="content" class="scheme-light content py-0">
 
 		<div class="blog-single-cover scheme-light" data-fullheight="true" data-inview="true" data-inview-options='{ "onImagesLoaded": true }' style="background-color: #666871;">
 
